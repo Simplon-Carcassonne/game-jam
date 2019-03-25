@@ -52,6 +52,7 @@ table {
 {
 	width: 50%;
 	display: inline-block;
+    filter: drop-shadow(3px 3px 8px black);
 }
 .logo h2
 {
