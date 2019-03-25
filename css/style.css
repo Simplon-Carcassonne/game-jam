@@ -1,16 +1,28 @@
 /*
-    Theme Name: Maundy
-    Theme URL: https://bootstrapmade.com/maundy-free-coming-soon-bootstrap-theme/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
+Theme Name: Maundy
+Theme URL: https://bootstrapmade.com/maundy-free-coming-soon-bootstrap-theme/
+Author: BootstrapMade.com
+Author URL: https://bootstrapmade.com
 */
+
+@font-face {
+ font-family: 'digital-7';
+ src: url(../fonts/digital-7.ttf);
+}
 
 body {
 	line-height: 1.2;
-    height: 100%;
-    background: #000  no-repeat center top;
-    background-size: cover;
+	height: 100%;
+	background: #000  no-repeat center top;
+	background-size: cover;
 	font-family: 'Open Sans', sans-serif;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,40b1e5+50,0a0e0a+50,0a0809+100 */
+	background: #000000; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #000000 0%, #40b1e5 50%, #0a0e0a 50%, #0a0809 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #000000 0%,#40b1e5 50%,#0a0e0a 50%,#0a0809 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #000000 0%,#40b1e5 50%,#0a0e0a 50%,#0a0809 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0a0809',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
 }
 ol, ul {
 	list-style: none;
@@ -45,7 +57,7 @@ table {
 {
 	font-family: 'Lobster', cursive;
 	font-size: 34px;
-    padding-top: 40px;
+	padding-top: 40px;
 }
 .logo h3
 {
@@ -55,34 +67,24 @@ table {
 
 }
 #countdown {
-    text-align: center;
-    margin:  70px 0px 69px;
-    min-height: 104px;
+	font-family: 'digital-7', sans-serif;
+	color: #111;
+	margin:  70px 0px 69px;
+	min-height: 104px;
+	background-color: #87CC93;
+	border: 2px  solid #fff;
+	border-radius: 5px 0px 5px 0px;
+	width: 50%;
+	font-size: 50px;
+
+
 }
-#countdown > div {
-    width: 100px;
-    height: 100px;
-    margin: 0px 1%;
-    display: inline-block;
-		background-color: #F700FF;
-    font-size: 20px;
-    line-height: 52px;
-    position: relative;
-    font-weight: 700;
-    color: black;
-    border: 2px  solid #fff;
-    border-radius: 5px 0px 5px 0px;
-    margin-bottom: 10px;
-}
-#countdown > div > span
-{
-	display: block;
-}
+
 .input-group-addon {
-    color: #fff;
-    background-color: transparent;
-    border: 1px solid #24B7A4;
-    border-radius: 4px;
+	color: #fff;
+	background-color: transparent;
+	border: 1px solid #24B7A4;
+	border-radius: 4px;
 }
 .sub-p
 {
@@ -123,8 +125,8 @@ table {
 }
 .subcription-info
 {
-    width: 40%;
-    margin: 0 auto 50px;
+	width: 40%;
+	margin: 0 auto 50px;
 }
 .abt-hd
 {
@@ -134,115 +136,115 @@ table {
 	color: #24B7A4;
 }
 .contact-title i {
-    color: #FFFFFF;
-    font-size: 1.8em;
-    text-align: right;
-    display: block;
-    padding: 65px 0 0 0;
+	color: #FFFFFF;
+	font-size: 1.8em;
+	text-align: right;
+	display: block;
+	padding: 65px 0 0 0;
 }
 .contact-title h2
 {
-    font-size: 1.2em;
-    font-weight: 600;
-    color: #fff;
-    text-align: right;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    padding: 15px 0px 30px;
+	font-size: 1.2em;
+	font-weight: 600;
+	color: #fff;
+	text-align: right;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 15px 0px 30px;
 }
 .contact-title p {
-    text-align: right;
-    margin-top: -5px;
-    color: rgba(236,240,241,0.9);
-    font-size: 13px;
-    word-spacing: 1px;
-    line-height: 25px;
-    padding-bottom: 30px;
+	text-align: right;
+	margin-top: -5px;
+	color: rgba(236,240,241,0.9);
+	font-size: 13px;
+	word-spacing: 1px;
+	line-height: 25px;
+	padding-bottom: 30px;
 }
 .contact input[type="text"], .contact input[type="email"] {
-    width: 100%;
-    background: transparent;
-    border: 1px solid #EDEDED;
-    margin-bottom: 20px;
-    font-size: 13px;
-    outline: none;
-    color: #ffffff;
+	width: 100%;
+	background: transparent;
+	border: 1px solid #EDEDED;
+	margin-bottom: 20px;
+	font-size: 13px;
+	outline: none;
+	color: #ffffff;
 }
 .social a i
 {
-    color: #F700FF;
-    display: block;
-    line-height: 48px;
+	color: #F700FF;
+	display: block;
+	line-height: 48px;
 
 }
 .social a:hover
 {
-    text-decoration: none;
+	text-decoration: none;
 }
 #contact-info
 {
 	padding: 0px 0px 40px;
 }
 .contact textarea {
-    width: 100%;
-    background: transparent;
-    font-size: 13px;
-    padding: 15px;
-    height: 100px;
-    border: 1px solid #EDEDED;
-    outline: none;
-    resize: none;
-    margin-bottom: 5px;
-    color: #ffffff;
+	width: 100%;
+	background: transparent;
+	font-size: 13px;
+	padding: 15px;
+	height: 100px;
+	border: 1px solid #EDEDED;
+	outline: none;
+	resize: none;
+	margin-bottom: 5px;
+	color: #ffffff;
 }
 
 .contact-submit {
-    background-color: #24B7A4;
-    border: 2px solid #24B7A4;
-    color: #FFFFFF;
-    width: 100%;
-    display: block;
-    word-spacing: 1px;
-    outline: none;
-    margin: 0 auto;
-    font-size: 13px;
-    text-transform: uppercase;
-    margin-top: 10px;
-    font-weight: 700;
-    padding: 10px;
-    -webkit-transition: all 0.3s ease-in-out !important;
-    -moz-transition: all 0.3s ease-in-out !important;
-    -ms-transition: all 0.3s ease-in-out !important;
-    -o-transition: all 0.3s ease-in-out !important;
-    transition: all 0.3s ease-in-out !important;
+	background-color: #24B7A4;
+	border: 2px solid #24B7A4;
+	color: #FFFFFF;
+	width: 100%;
+	display: block;
+	word-spacing: 1px;
+	outline: none;
+	margin: 0 auto;
+	font-size: 13px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	font-weight: 700;
+	padding: 10px;
+	-webkit-transition: all 0.3s ease-in-out !important;
+	-moz-transition: all 0.3s ease-in-out !important;
+	-ms-transition: all 0.3s ease-in-out !important;
+	-o-transition: all 0.3s ease-in-out !important;
+	transition: all 0.3s ease-in-out !important;
 }
 
 .validation {
-    color: red;
-    display:none;
-    margin: 0 0 20px;
-    font-weight:400;
-    font-size:13px;
+	color: red;
+	display:none;
+	margin: 0 0 20px;
+	font-weight:400;
+	font-size:13px;
 }
 
 #sendmessage {
-    color: green;
-    border:1px solid green;
-    display:none;
-    text-align:center;
-    padding:15px;
-    font-weight:600;
-    margin-bottom:15px;
+	color: green;
+	border:1px solid green;
+	display:none;
+	text-align:center;
+	padding:15px;
+	font-weight:600;
+	margin-bottom:15px;
 }
 
 #errormessage {
-    color: red;
-    display:none;
-    border:1px solid red;
-    text-align:center;
-    padding:15px;
-    font-weight:600;
-    margin-bottom:15px;
+	color: red;
+	display:none;
+	border:1px solid red;
+	text-align:center;
+	padding:15px;
+	font-weight:600;
+	margin-bottom:15px;
 }
 
 #sendmessage.show, #errormessage.show, .show {
@@ -250,89 +252,89 @@ table {
 }
 
 footer {
-    padding: 30px;
-    color: #fff;
-    text-align: center;
-    background-color: #242830;
+	padding: 30px;
+	color: #fff;
+	text-align: center;
+	background-color: #242830;
 }
 .footer a
 {
-    color: #24B7A4;
+	color: #24B7A4;
 }
 .credits {
-    padding-top: 10px;
+	padding-top: 10px;
 }
 
 .subscribe_form {
-    position: relative;
+	position: relative;
 }
 .subscribe_form .subscribe {
-    right: 0px;
-    top: 0px;
-    width: 160px;
-    height: 50px;
-    position: absolute;
-    color: #FFF;
-    background-color: #24B7A4;
-    border: medium none;
-    border-bottom-left-radius: 0px;
-    border-top-left-radius: 0px;
-    font-family: "Roboto Slab",serif;
-    font-size: 18px;
+	right: 0px;
+	top: 0px;
+	width: 160px;
+	height: 50px;
+	position: absolute;
+	color: #FFF;
+	background-color: #24B7A4;
+	border: medium none;
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+	font-family: "Roboto Slab",serif;
+	font-size: 18px;
 }
 h2.subs-title  {
-    font-family: 'Lobster', cursive;
-    font-size: 34px;
-    /* padding: 30px 0px 20px; */
+	font-family: 'Lobster', cursive;
+	font-size: 34px;
+	/* padding: 30px 0px 20px; */
 }
 .subscribe_form input {
-    height: 50px;
-    border: none;
-    width: 100%;
-    font-family: 'Lato', sans-serif;
-    font-size: 15px;
-    border-radius: 30px;
-    color: #000;
+	height: 50px;
+	border: none;
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	border-radius: 30px;
+	color: #000;
 }
 .subscribe_form input[type=email]
 {
-    padding-left: 30px;
+	padding-left: 30px;
 }
 /**********************************
 Media Queries
 ***********************************/
 @media (min-width: 501px) and (max-width: 901px) {
-    .contact-title{
-        padding: 15px;
-}
-.section-padding {
-        padding: 60px 30px;
-}
-.subscribe_form .subscribe {
-    width: 100px;
-    font-size: 15px;
-}
-.subcription-info {
-        width: 60%;
-        margin: 0 auto;
-}
-body{
-    overflow-x:hidden;
-}
+	.contact-title{
+		padding: 15px;
+	}
+	.section-padding {
+		padding: 60px 30px;
+	}
+	.subscribe_form .subscribe {
+		width: 100px;
+		font-size: 15px;
+	}
+	.subcription-info {
+		width: 60%;
+		margin: 0 auto;
+	}
+	body{
+		overflow-x:hidden;
+	}
 }
 @media (min-width: 20px) and (max-width: 500px) {
-    .contact-title{
-        padding: 15px;
-}
-.section-padding {
-        padding: 60px 30px;
-}
-.subscribe_form .subscribe {
-    width: 100px;
-    font-size: 15px;
-}
-.subcription-info {
-        width: 80%;
-        margin: 0 auto;
-}
+	.contact-title{
+		padding: 15px;
+	}
+	.section-padding {
+		padding: 60px 30px;
+	}
+	.subscribe_form .subscribe {
+		width: 100px;
+		font-size: 15px;
+	}
+	.subcription-info {
+		width: 80%;
+		margin: 0 auto;
+	}
 }
