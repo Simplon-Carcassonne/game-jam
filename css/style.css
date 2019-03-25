@@ -50,7 +50,7 @@ table {
 }
 .logo img
 {
-	height: 500px;
+	width: 50%;
 	display: inline-block;
 }
 .logo h2
@@ -70,14 +70,15 @@ table {
 	font-family: 'digital-7', sans-serif;
 	color: #111;
 	margin:  70px 0px 69px;
-	min-height: 104px;
-	background-color: #87CC93;
-	border: 2px  solid #fff;
-	border-radius: 5px 0px 5px 0px;
-	width: 50%;
+	padding: 10px;
+	min-height: 75px;
+	background-color: #6AB076;
+	border: 6px  inset #DDD;
+	border-radius: 5px;
 	font-size: 50px;
-
-
+	box-shadow: 2px 2px 8px;
+	margin-left:auto;
+margin-right: auto;
 }
 
 .input-group-addon {
@@ -134,6 +135,8 @@ table {
 	font-weight: bold;
 	padding: 10px 0px 15px;
 	color: #24B7A4;
+	box-shadow: 2px 2px 8px;
+	background-color: #000000cc
 }
 .contact-title i {
 	color: #FFFFFF;
