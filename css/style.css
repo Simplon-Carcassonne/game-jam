@@ -47,9 +47,16 @@ table {
 	font-size: 34px;
     padding-top: 40px;
 }
+.logo h3
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 34px;
+	color: #24B7A4;
+
+}
 #countdown {
     text-align: center;
-    margin:  110px 0px 69px;
+    margin:  70px 0px 69px;
     min-height: 104px;
 }
 #countdown > div {
@@ -57,13 +64,14 @@ table {
     height: 100px;
     margin: 0px 1%;
     display: inline-block;
+		background-color: #F700FF;
     font-size: 20px;
     line-height: 52px;
     position: relative;
     font-weight: 700;
-    color: #fff;
-    border: 2px solid #fff;
-    border-radius: 5px;
+    color: black;
+    border: 2px  solid #fff;
+    border-radius: 5px 0px 5px 0px;
     margin-bottom: 10px;
 }
 #countdown > div > span
@@ -73,7 +81,7 @@ table {
 .input-group-addon {
     color: #fff;
     background-color: transparent;
-    border: 1px solid #ccc;
+    border: 1px solid #24B7A4;
     border-radius: 4px;
 }
 .sub-p
@@ -93,13 +101,17 @@ table {
 }
 .section-padding
 {
-	padding: 60px;
+	padding: 40px;
 }
 .about-title h2
 {
 	font-size: 24px;
 	font-family: 'Lobster', cursive;
 	padding-bottom: 10px;
+}
+.us img{
+	width: 100px;
+	margin: 10px;
 }
 .img
 {
@@ -119,6 +131,7 @@ table {
 	font-size: 20px;
 	font-weight: bold;
 	padding: 10px 0px 15px;
+	color: #24B7A4;
 }
 .contact-title i {
     color: #FFFFFF;
@@ -157,7 +170,7 @@ table {
 }
 .social a i
 {
-    color: #fff;
+    color: #F700FF;
     display: block;
     line-height: 48px;
 
@@ -270,7 +283,7 @@ footer {
 h2.subs-title  {
     font-family: 'Lobster', cursive;
     font-size: 34px;
-    padding: 30px 0px 20px;
+    /* padding: 30px 0px 20px; */
 }
 .subscribe_form input {
     height: 50px;
