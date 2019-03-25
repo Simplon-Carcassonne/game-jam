@@ -20,6 +20,12 @@
 </head>
 
 <body>
+  <?php   
+    if(isset($_POST['name'])){
+        include 'inc/manageForm.php';
+    }
+   ?>
+    
   <div class="content">
     <div class="container wow fadeInUp delay-03s">
       <div class="row">
@@ -81,7 +87,7 @@
           <div class="col-md-12 col-sm-12 text-center">
             <div class="about-title">
               <h2>Qui sommes nous ?</h2>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium </br>voluptatum deleniti atque corrupti quos dolores e</p>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium <br>voluptatum deleniti atque corrupti quos dolores e</p>
             </div>
           </div>
         </div>
@@ -102,7 +108,7 @@
           <div class="col-md-12 col-sm-12 text-center">
             <div class="about-title">
               <h2>Nos Partenaires</h2>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium </br>voluptatum deleniti atque corrupti quos dolores e</p>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium <br>voluptatum deleniti atque corrupti quos dolores e</p>
             </div>
           </div>
         </div>
@@ -183,7 +189,7 @@
 <script src="js/jquery.countdown.min.js"></script>
 <script src="js/wow.js"></script>
 <script src="js/custom.js"></script>
-<script src="contactform/contactform.js"></script>
+<!--<script src="contactform/contactform.js"></script>-->
 
 </body>
 
