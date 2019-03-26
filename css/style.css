@@ -39,6 +39,22 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+h1
+{
+ font-size: 34px;
+ font-family: 'Lobster', cursive;
+ padding-bottom: 10px;
+ color: yellow;
+}
+
+ h2
+{
+	font-size: 24px;
+	font-family: 'Lobster', cursive;
+	padding-bottom: 10px;
+  color: yellow;
+}
+
 /**********************************
 ***********************************/
 /**********************************
@@ -61,12 +77,7 @@ table {
 	font-size: 20px;
 
 }
-.logo h2
-{
-	font-family: 'Lobster', cursive;
-	font-size: 34px;
 
-}
 .logo h3
 {
 	font-family: 'Open Sans', sans-serif;
@@ -124,6 +135,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5e5b9', end
 	font-size: 24px;
 	font-family: 'Lobster', cursive;
 	padding-bottom: 10px;
+  color: yellow;
 }
 .us img{
 	width: 100px;
@@ -159,7 +171,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5e5b9', end
 	display: block;
 	padding: 65px 0 0 0;
 }
-.contact-title h2
+/* .contact-title h2
 {
 	font-size: 1.2em;
 	font-weight: 600;
@@ -168,7 +180,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5e5b9', end
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	padding: 15px 0px 30px;
-}
+} */
 .contact-title p {
 	text-align: right;
 	margin-top: -5px;

@@ -1,6 +1,6 @@
 <section class="container">
     <div class="row">
-        <div class="col">
+        <div class="col about-title">
             <h2>Rejoignez l'évènement</h2>
             <hr />
             <div class="center">
