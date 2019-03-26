@@ -114,11 +114,16 @@ class FormContactManager
 			//all is OK ??
 			if ($this->checkInput()) {
 				$this->sanitizeInput();
-				$this->mail = new PHPMailer\PHPMailer\PHPMailer(true);
-				$this->preprareMailParams();
-				$this->prepareMailAdresses($this->mxEmail, $this->storeEmail, (isset($_POST["email"]) ? $_POST["email"] : "mafabrik2jeux@gmail.com")); //from - to - mailObject
-				if($this->sendEmail()){
-					$this->result = array('status' => 1, 'message' => "l'email a bien été envoyé ! Votre demande sera traitée sous 48h");
+				if($this->checkCaptcha()){
+					$this->mail = new PHPMailer\PHPMailer\PHPMailer(true);
+					$this->preprareMailParams();
+					$this->prepareMailAdresses($this->mxEmail, $this->storeEmail, (isset($_POST["email"]) ? $_POST["email"] : "mafabrik2jeux@gmail.com")); //from - to - mailObject
+					if($this->sendEmail()){
+						$this->result = array('status' => 1, 'message' => "l'email a bien été envoyé ! Votre demande sera traitée sous 48h");
+					}
+				}
+				else{
+					$this->result = array('status' => 0, 'message' => "Système anti-bot activé !!");
 				}
 			} else {
 				http_response_code(400);
@@ -159,5 +164,29 @@ class FormContactManager
 	private function sanitizeInput(){
 		$this->message = strip_tags($_POST["message"]);
 		$this->name = strip_tags($_POST["name"]);
+	}
+
+	private function checkCaptcha(){
+		if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['recaptcha_response'])) {
+
+			// Build POST request:
+			$recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
+			$recaptcha_secret = '6LeeBJoUAAAAAEXkH-BJu16gH77Zp4ZQSAyQUZ16';
+			$recaptcha_response = $_POST['recaptcha_response'];
+		
+			// Make and decode POST request:
+			$recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
+			$recaptcha = json_decode($recaptcha);
+		
+			// Take action based on the score returned:
+			if ($recaptcha->score >= 0.5) {
+				// Verified - send email
+				return true;
+			} else {
+				// Not verified - show form error
+				return false;
+			}
+		
+		}
 	}
 }

@@ -86,7 +86,6 @@
     <script src="js/LeafletMarker.js"></script>
     <script src="js/LeafletMap.js"></script>
     <script src="js/ourJSEffects.js"></script>
-    <script src="js/ourMap.js"></script>
 
 
 </body>
