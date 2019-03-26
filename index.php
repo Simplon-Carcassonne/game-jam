@@ -78,7 +78,7 @@
     <script src="js/LeafletMap.js"></script>
     <script src="js/ourJSEffects.js"></script>
     <script src="js/ourMap.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js?render=6LeeBJoUAAAAAEXkH-BJu16gH77Zp4ZQSAyQUZ16"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LeeBJoUAAAAANzJ3EdPxe1WFp_8ZPX_S0MJqo6Q"></script>
     <script>
     grecaptcha.ready(function() {
         grecaptcha.execute('reCAPTCHA_site_key', {action: 'homepage'}).then(function(token) {
