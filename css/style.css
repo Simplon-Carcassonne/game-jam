@@ -165,7 +165,7 @@ margin-right: auto;
 	line-height: 25px;
 	padding-bottom: 30px;
 }
-.contact input[type="text"], .contact input[type="email"] {
+.contact input[type="text"], .contact input[type="email"], .contact select {
 	width: 100%;
 	background: transparent;
 	border: 1px solid #EDEDED;
@@ -202,6 +202,30 @@ margin-right: auto;
 	color: #ffffff;
 }
 
+.justify{
+	text-align: right;
+}
+.contact-phone{
+	background-color: #24B7A4;
+	border: 2px solid #24B7A4;
+	color: #FFFFFF;
+	word-spacing: 1px;
+	outline: none;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 10px;
+	-webkit-transition: all 0.3s ease-in-out !important;
+	-moz-transition: all 0.3s ease-in-out !important;
+	-ms-transition: all 0.3s ease-in-out !important;
+	-o-transition: all 0.3s ease-in-out !important;
+	transition: all 0.3s ease-in-out !important;
+}
+.contact-phone:hover{
+	text-decoration: none;
+	color: white;
+}
+
 .contact-submit {
 	background-color: #24B7A4;
 	border: 2px solid #24B7A4;
@@ -234,7 +258,6 @@ margin-right: auto;
 #sendmessage {
 	color: green;
 	border:1px solid green;
-	display:none;
 	text-align:center;
 	padding:15px;
 	font-weight:600;
@@ -243,7 +266,6 @@ margin-right: auto;
 
 #errormessage {
 	color: red;
-	display:none;
 	border:1px solid red;
 	text-align:center;
 	padding:15px;
