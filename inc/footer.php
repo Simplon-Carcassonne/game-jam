@@ -3,15 +3,11 @@
         <div class="row bort">
 
             <div class="copyright">
-                © Copyright . All rights reserved.
+                 Copyright ©  Event Orizon 2019. All rights reserved.
                 <div class="credits">
-                    <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Maundy
-        -->
-                    Designed by <a href="http://www.la-projets.yo.fr/" target="_blank">LA Projets</a>
+                Powered with <i class="fa fa-heart"></i> by <a href="https://eventorizon.studio" target="_blank">Event Orizon</a>
+                Design by <a href="http://www.la-projets.yo.fr/" target="_blank">LA Projet </a>
+                    - Retrouvez les <a href="/mentions-legales">Mentions Légales</a>
                 </div>
             </div>
 
