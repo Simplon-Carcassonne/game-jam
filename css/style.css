@@ -138,7 +138,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5e5b9', end
   color: yellow;
 }
 .us img{
-	width: 100px;
+	height: 100px;
 	margin: 10px;
 }
 .img
