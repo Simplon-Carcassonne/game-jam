@@ -1,4 +1,4 @@
-<section id="about" class="section-padding">
+<section  class="section-padding">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 text-center">
@@ -19,7 +19,7 @@
         </div>
     </div>
 </section>
-<section id="about" class="section-padding">
+<section  class="section-padding">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 text-center">
