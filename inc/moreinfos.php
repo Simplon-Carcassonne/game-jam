@@ -1,4 +1,4 @@
-<section id="about" class="section-padding">
+<section id="about" class="">
     <div class="container">
         <div class="row">
             <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-02s text-center">
@@ -31,4 +31,4 @@
             </div>
         </div>
     </div>
-</section> 
+</section>
