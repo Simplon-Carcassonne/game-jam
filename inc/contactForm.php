@@ -45,9 +45,10 @@
                             <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"><?php  if(isset($_POST['message'])) echo $_POST['message'];  ?></textarea>
                             <div class="validation"></div>
                         </div>
-                        <div class="g-recaptcha" data-sitekey="6LeeBJoUAAAAAEXkH-BJu16gH77Zp4ZQSAyQUZ16"></div>
 
                         <div class="text-center"><button type="submit" class="contact-submit"><i class="fa fa-envelope" aria-hidden="true"></i> Envoyer</button></div>
+
+                          <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
                     </form>
                 </div>
             </div>
