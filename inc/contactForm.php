@@ -32,7 +32,7 @@
                             <input type="email" value="<?php  if(isset($_POST['email'])) echo $_POST['email'];  ?>" class="form-control" name="email" id="email" placeholder="Entrez votre email" data-rule="email" data-msg="Please enter a valid email" />
                             <div class="validation"></div>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group select-style">
                             <select class="form-control" name="subject" id="subject">
                                 <option value="team" <?php  if(isset($_POST['subject']) && $_POST['subject'] == 'team') echo 'selected="selected"';  ?>>Inscrire son équipe</option>
                                 <option value="team-join" <?php  if(isset($_POST['subject']) && $_POST['subject'] == 'team-join') echo 'selected="selected"';  ?>>Rejoindre une équipe</option>
