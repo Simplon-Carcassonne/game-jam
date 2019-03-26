@@ -49,86 +49,13 @@
       </div> -->
             </div>
         </div>
+        <?php
+            include 'inc/moreinfos.php';
+         ?>
+        <?php
+            include 'inc/whoweare.php';
+         ?>
 
-
-        <section id="about" class="section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-02s text-center">
-                        <div class="img">
-                            <i class="fa fa-gamepad"></i>
-                        </div>
-                        <h3 class="abt-hd">Le Jeu</h3>
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores</p>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-04s text-center">
-                        <div class="img">
-                            <i class="fa fa-users"></i>
-                        </div>
-                        <h3 class="abt-hd">Les Equipes</h3>
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores</p>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-06s text-center">
-                        <div class="img">
-                            <i class="fa fa-cogs"></i>
-                        </div>
-                        <h3 class="abt-hd">Le Système</h3>
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores</p>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-08s text-center">
-                        <div class="img">
-                            <i class="fa fa-leaf"></i>
-                        </div>
-                        <h3 class="abt-hd">L'environnement</h3>
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="about" class="section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 text-center">
-                        <div class="about-title">
-                            <h2>Qui sommes nous ?</h2>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium <br>voluptatum deleniti atque corrupti quos dolores e</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 text-center">
-                        <div class="us">
-                            <img src="img/simplon.png" alt="">
-                            <img src="img/event_orizon.png" alt="">
-                            <img src="img/gnt.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="about" class="section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 text-center">
-                        <div class="about-title">
-                            <h2>Nos Partenaires</h2>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium <br>voluptatum deleniti atque corrupti quos dolores e</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 text-center">
-                        <div class="us">
-                            <a href="https://simplon.co/occitanie/" target="_blank"><img src="img/simplon.png" alt="simplon"></a>
-                            <a href="https://simplon.co/occitanie/" target="_blank"><img src="img/logoCarca.png" alt="mairie Carcassonne"></a>
-                            <a href="https://simplon.co/occitanie/" target="_blank">  <img src="img/Godot.png" alt="Gobot engine"></a>
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
         <?php
         include 'inc/contactForm.php';
         ?>
@@ -142,7 +69,7 @@
     <script src="js/jquery.countdown.min.js"></script>
     <script src="js/wow.js"></script>
     <script src="js/custom.js"></script>
-    <!--<script src="contactform/contactform.js"></script>-->
+    <script src="contactform/ourMap.js"></script>
 
 </body>
 
