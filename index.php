@@ -77,7 +77,8 @@
     <?php
     include 'inc/footer.php';
     ?>
-
+    <script src="js/popper.js"></script>
+    <script src="js/tooltip.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.countdown.min.js"></script>
