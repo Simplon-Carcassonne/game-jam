@@ -88,8 +88,9 @@
     <script src="js/jquery.countdown.min.js"></script>
     <script src="js/wow.js"></script>
     <script src="js/custom.js"></script>
-    <script src="js/LeafletMarker.js"></script>
-    <script src="js/LeafletMap.js"></script>
+    <script src="js/class/LeafletMarker.js"></script>
+    <script src="js/class/LeafletMap.js"></script>
+    <script src="js/class/PhoneButton.js"></script>
     <script src="js/ourJSEffects.js"></script>
 
 
