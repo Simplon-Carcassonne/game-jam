@@ -47,7 +47,7 @@ class LeafletMap {
         }
         //custom Icons
         var simplonIcon = L.icon({
-            iconUrl: 'img/logoSimplon.png',
+            iconUrl: 'img/Hornet_GJ.png',
             //shadowUrl: 'logoSimplon.png',
 
             iconSize: [38, 38], // size of the icon
