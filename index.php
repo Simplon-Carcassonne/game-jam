@@ -69,7 +69,7 @@
     <script src="js/jquery.countdown.min.js"></script>
     <script src="js/wow.js"></script>
     <script src="js/custom.js"></script>
-    <script src="contactform/ourMap.js"></script>
+    <script src="js/ourMap.js"></script>
 
 </body>
 
