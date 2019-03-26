@@ -70,11 +70,6 @@
     <script src="js/wow.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/ourMap.js"></script>
-    <script>
-      grecaptcha.ready(function() {
-          grecaptcha.execute('reCAPTCHA_site_key', {action: 'homepage'});
-      });
-    </script>
 
 </body>
 
