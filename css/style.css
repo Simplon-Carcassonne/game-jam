@@ -81,13 +81,18 @@ table {
 	padding: 10px;
 	min-height: 75px;
 	background-color: #63D160; /*effet LCD*/
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d5e5b9+0,abbd73+100 */
+background: #d5e5b9; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #d5e5b9 0%, #abbd73 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #d5e5b9 0%,#abbd73 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #d5e5b9 0%,#abbd73 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5e5b9', endColorstr='#abbd73',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	border: 6px  inset #DDD;
 	border-radius: 5px;
-	font-size: 50px;
+	font-size: 60px;
 	box-shadow: 2px 2px 8px;
-	margin-left:auto;
-margin-right: auto;
 }
+
 
 .input-group-addon {
 	color: #fff;
@@ -338,7 +343,7 @@ h2.subs-title  {
 #mapid{
 	/*width:80%;
 	height: auto;*/
-	width: 600px; 
+	width: 600px;
 	height: 400px;
 	margin:0 auto;
 }

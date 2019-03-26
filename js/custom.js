@@ -17,10 +17,10 @@
                     var $days = data.days;
                 }
                 $(this.el).html(
-                    '<p class="day">' + this.leadingZeros($days) + 'J | '
-                    + this.leadingZeros(data.hours, 2) + ' : '+
-                    this.leadingZeros(data.min, 2) + ' : '+
-                    this.leadingZeros(data.sec, 2) + '</p>'
+                    '<p class="day">' + this.leadingZeros($days) + ' j : '
+                    + this.leadingZeros(data.hours, 2) + ' h : '+
+                    this.leadingZeros(data.min, 2) + ' m : '+
+                    this.leadingZeros(data.sec, 2) + ' s</p>'
                 );
             }
         });
