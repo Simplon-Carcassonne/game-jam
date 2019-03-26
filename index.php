@@ -74,11 +74,9 @@
     <script src="js/jquery.countdown.min.js"></script>
     <script src="js/wow.js"></script>
     <script src="js/custom.js"></script>
-<<<<<<< HEAD
     <script src="js/LeafletMarker.js"></script>
     <script src="js/LeafletMap.js"></script>
     <script src="js/ourJSEffects.js"></script>
-=======
     <script src="js/ourMap.js"></script>
     <script>
       grecaptcha.ready(function() {
@@ -86,7 +84,6 @@
       });
     </script>
 
->>>>>>> 0bd917cf7a6593d8502d3823dde8261a4b9c4230
 </body>
 
 </html>
