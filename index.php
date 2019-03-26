@@ -70,13 +70,10 @@
     <script src="js/wow.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/ourMap.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
     <script>
-     grecaptcha.ready(function() {
-         grecaptcha.execute('reCAPTCHA_site_key', {action: 'homepage'}).then(function(token) {
-            ...
-         });
-     });
+      grecaptcha.ready(function() {
+          grecaptcha.execute('reCAPTCHA_site_key', {action: 'homepage'});
+      });
     </script>
 
 </body>
