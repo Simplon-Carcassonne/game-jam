@@ -3,7 +3,7 @@
         <div class="row bort">
 
             <div class="copyright">
-                © Copyright Maundy Theme. All rights reserved.
+                © Copyright . All rights reserved.
                 <div class="credits">
                     <!--
           All the links in the footer should remain intact.
@@ -11,10 +11,10 @@
           Licensing information: https://bootstrapmade.com/license/
           Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Maundy
         -->
-                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                    Designed by <a href="http://www.la-projets.yo.fr/" target="_blank">LA Projets</a>
                 </div>
             </div>
 
         </div>
     </div>
-</footer> 
+</footer>

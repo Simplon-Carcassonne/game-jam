@@ -51,21 +51,28 @@ table {
 .logo img
 {
 	width: 50%;
+  margin:  25px ;
 	display: inline-block;
     filter: drop-shadow(3px 3px 8px black);
+}
+.logo P
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+
 }
 .logo h2
 {
 	font-family: 'Lobster', cursive;
 	font-size: 34px;
-	padding-top: 40px;
+
 }
 .logo h3
 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 34px;
-	color: #24B7A4;
-
+	color: #EC00FF;
+  font-weight: bolder;
 }
 #countdown {
 	font-family: 'digital-7', sans-serif;
@@ -73,7 +80,7 @@ table {
 	margin:  70px 0px 69px;
 	padding: 10px;
 	min-height: 75px;
-	background-color: #6AB076;
+	background-color: #63D160; /*effet LCD*/
 	border: 6px  inset #DDD;
 	border-radius: 5px;
 	font-size: 50px;
@@ -124,6 +131,7 @@ margin-right: auto;
 .img i
 {
 	font-size: 44px;
+  color: yellow;
 }
 .subcription-info
 {

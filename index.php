@@ -25,15 +25,16 @@
       include 'inc/manageForm.php';
     }
     ?>
-
     <div class="content">
         <div class="container wow fadeInUp delay-03s">
             <div class="row">
                 <div class="col-md-12 logo text-center">
+                  <h2>Formez votre équipe et créer un Serious Game</h2>
                     <img src="img/logo.png" alt="logo">
+                    <p>2 jours pour développer, 2 jours pour créer, 2 jours pour s'entraider et 2 jours pour pour votre avenir !</p>
                     <h2>Venez participer et découvrir le développement d'un Jeu Vidéo !</h2>
-                    <h3>Formez votre équipe pour créer un SERIOUS GAME</h3>
                 </div>
+
                 <?php
                 include 'inc/countdown.php';
                 ?>
@@ -118,9 +119,11 @@
                 <div class="row">
                     <div class="col-md-12 col-sm-12 text-center">
                         <div class="us">
-                            <img src="img/simplon.png" alt="">
-                            <img src="img/logoCarca.png" alt="">
-                            <img src="img/Godot.png" alt="">
+                            <a href="https://simplon.co/occitanie/" target="_blank"><img src="img/simplon.png" alt="simplon"></a>
+                            <a href="https://simplon.co/occitanie/" target="_blank"><img src="img/logoCarca.png" alt="mairie Carcassonne"></a>
+                            <a href="https://simplon.co/occitanie/" target="_blank">  <img src="img/Godot.png" alt="Gobot engine"></a>
+
+
                         </div>
                     </div>
                 </div>
@@ -133,7 +136,7 @@
     <?php
     include 'inc/footer.php';
     ?>
-    
+
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.countdown.min.js"></script>
@@ -143,4 +146,4 @@
 
 </body>
 
-</html> 
+</html>
