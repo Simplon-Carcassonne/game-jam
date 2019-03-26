@@ -77,7 +77,6 @@
     <script src="js/LeafletMarker.js"></script>
     <script src="js/LeafletMap.js"></script>
     <script src="js/ourJSEffects.js"></script>
-    <script src="js/ourMap.js"></script>
     <script src="https://www.google.com/recaptcha/api.js?render=6LeeBJoUAAAAANzJ3EdPxe1WFp_8ZPX_S0MJqo6Q"></script>
     <script>
     grecaptcha.ready(function() {
