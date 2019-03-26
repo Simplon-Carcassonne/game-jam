@@ -14,6 +14,15 @@
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LeeBJoUAAAAANzJ3EdPxe1WFp_8ZPX_S0MJqo6Q"></script>
+    <script>
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6LeeBJoUAAAAANzJ3EdPxe1WFp_8ZPX_S0MJqo6Q', { action: 'contact' }).then(function (token) {
+                var recaptchaResponse = document.getElementById('recaptchaResponse');
+                recaptchaResponse.value = token;
+            });
+        });
+    </script>
     <!-- =======================================================
   Theme Name: Maundy
   Theme URL: https://bootstrapmade.com/maundy-free-coming-soon-bootstrap-theme/
@@ -77,14 +86,7 @@
     <script src="js/LeafletMarker.js"></script>
     <script src="js/LeafletMap.js"></script>
     <script src="js/ourJSEffects.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js?render=6LeeBJoUAAAAANzJ3EdPxe1WFp_8ZPX_S0MJqo6Q"></script>
-    <script>
-    grecaptcha.ready(function() {
-        grecaptcha.execute('reCAPTCHA_site_key', {action: 'homepage'}).then(function(token) {
-           ...
-        });
-    });
-    </script>
+
 
 </body>
 
