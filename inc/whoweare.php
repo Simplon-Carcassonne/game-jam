@@ -34,7 +34,7 @@
                 <div class="us">
                     <a href="https://simplon.co" target="_blank"><img src="img/simplon.png" alt="simplon"></a>
                     <a href="http://www.carcassonne.org/" target="_blank"><img src="img/logoCarca.png" alt="mairie Carcassonne"></a>
-                    <a href="https://godotengine.org/" target="_blank"> <img src="img/Godot.jpg" alt="Gobot engine"></a
+                    <a href="https://godotengine.org/" target="_blank"> <img src="img/Godot.jpg" alt="Gobot engine"></a>
                 </div>
             </div>
         </div>
