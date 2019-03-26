@@ -17,7 +17,7 @@
     <script src="https://www.google.com/recaptcha/api.js?render=6LeeBJoUAAAAANzJ3EdPxe1WFp_8ZPX_S0MJqo6Q"></script>
     <script>
         grecaptcha.ready(function () {
-            grecaptcha.execute('6LeeBJoUAAAAAEXkH-BJu16gH77Zp4ZQSAyQUZ16', { action: 'contact' }).then(function (token) {
+            grecaptcha.execute('6LeeBJoUAAAAANzJ3EdPxe1WFp_8ZPX_S0MJqo6Q', { action: 'contact' }).then(function (token) {
                 var recaptchaResponse = document.getElementById('recaptchaResponse');
                 recaptchaResponse.value = token;
             });
