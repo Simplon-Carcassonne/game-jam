@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png"  href="img/Hornet_GJ.png" />
     <title>Game Jam Carcassonne</title>
     <meta name="description" content="Rejoignez la Game Jame sur Carcassonne en Mai 2019">
     <link href='https://fonts.googleapis.com/css?family=Lobster|Open+Sans:400,400italic,300italic,300|Raleway:300,400,600' rel='stylesheet' type='text/css'>
