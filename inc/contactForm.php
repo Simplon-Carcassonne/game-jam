@@ -15,7 +15,7 @@
             <div class="contact col-md-6 wow fadeIn delay-08s">
                 <div class="col-md-10 col-md-offset-1">
                     <div id="note"></div>
-                    <?php 
+                    <?php
                     if (isset($error)) {
                         echo '<div id="errormessage">'.$error.'</div>';
                     }
@@ -45,6 +45,7 @@
                             <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"><?php  if(isset($_POST['message'])) echo $_POST['message'];  ?></textarea>
                             <div class="validation"></div>
                         </div>
+                        <div class="g-recaptcha" data-sitekey="6LeeBJoUAAAAANzJ3EdPxe1WFp_8ZPX_S0MJqo6Q"></div>
 
                         <div class="text-center"><button type="submit" class="contact-submit"><i class="fa fa-envelope" aria-hidden="true"></i> Envoyer</button></div>
                     </form>
@@ -52,4 +53,4 @@
             </div>
         </div>
     </div>
-</div> 
+</div>
