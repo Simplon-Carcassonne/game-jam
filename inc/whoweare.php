@@ -31,9 +31,9 @@
         </div>
         <div class="row">
             <div class="col-md-12 col-sm-12 text-center">
-                <div class="us">
-                    <a href="https://simplon.co" target="_blank"><img src="img/simplon.png" alt="simplon"></a>
-                    <a href="http://www.carcassonne.org/" target="_blank"><img src="img/logoCarca.png" alt="mairie Carcassonne"></a>
+                <div class="us tooltip__inner">
+                  <a href="http://www.carcassonne.org/" target="_blank"><img src="img/logoCarca.png" alt="mairie Carcassonne"></a>
+                    <a href="https://simplon.co" target="_blank"><img src="img/SimplonLogo.svg" alt="simplon"></a>
                     <a href="https://godotengine.org/" target="_blank"> <img src="img/Godot.jpg" alt="Gobot engine"></a>
                 </div>
             </div>
