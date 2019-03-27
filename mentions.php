@@ -31,7 +31,7 @@
             <div class="row">
                 <div class="col-md-12 logo text-center">
                   <h2>Formez votre équipe et créez un Serious Game</h2>
-                    <img src="img/logo.png" alt="logo">
+                    <a href="index.php"><img src="img/logo.png" alt="logo"></a>
                     <p>2 jours pour développer, 2 jours pour créer, 2 jours pour s'entraider et 2 jours pour votre avenir !</p>
                     <h2>Venez participer et découvrir le développement d'un Jeu Vidéo !</h2>
                 </div>
@@ -39,6 +39,9 @@
                 <?php
                 include 'inc/countdown.php';
                 ?>
+                <div class="text-center">
+                    <a href="index.php#contact-info" class="contact-phone">Envie de participer ?</a>
+                 </div><br>
             </div>
         </div>
         <div class="container">
@@ -53,10 +56,10 @@
             <!-- /.row -->
             <!-- Content Row -->
             <div class="row text-center">
-                <h2>Responsable éditorial:</h2><br/><br/>
+                <h2>Responsable éditorial:</h2><br/>
+                Simplon Carcassonne<br/>
                 Taurisano Alexandre<br/>
                 Tél. : + 33 (0)6 32 09 67 92<br/>
-
                 Siège social : 302 Rue Lamarck - 11000 Carcassonne<br/><br/><br/>
 
                 <hr/>
