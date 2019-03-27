@@ -352,12 +352,18 @@ h2.subs-title  {
 	padding-left: 30px;
 }
 
-#mapid{
-	/*width:80%;
-	height: auto;*/
-	width: 600px;
-	height: 400px;
+#mapContainer{
+	width:80%;
 	margin:0 auto;
+	min-height: 200px;
+}
+
+#mapid{
+	height: 300px;
+}
+
+.styleOn{
+	list-style: inherit; 
 }
 
 

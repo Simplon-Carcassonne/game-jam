@@ -15,6 +15,7 @@ class LeafletMap {
 
         this.latitude = latitude;
         this.longitude = longitude;
+        this.zoom = zoom;
         //this.domElmt = document.querySelector('h1');
         //this.domElmt = document.getElementById(ID);
         /*this.domElmt.addEventListener('onDatasAvailable',  (e) => {
@@ -65,9 +66,11 @@ class LeafletMap {
             .setContent("Halles, Rue Chartran, 11000 Carcassonne <br> Cliquez pour ouvrir l'application de guidage")
             .openOn(this.mymap);
 
-        /*this.mymap.on('click', () => {
-            this.onMapClick();
-        });*/
+        $(window).on('orientationchange pageshow resize',  () => {
+            $(ID).height($(window).height());
+            this.mymap.invalidateSize();
+            this.mymap.setView([this.latitude,this.longitude], this.zoom);
+        }).trigger('resize');
 
         this.marker.on('click', () => {
             this.onPopUpClick();

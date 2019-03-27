@@ -3,10 +3,27 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png"  href="img/Hornet_GJ.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" type="image/png" href="img/Hornet_GJ.png" />
     <title>Game Jam Carcassonne</title>
     <meta name="description" content="Rejoignez la Game Jame sur Carcassonne en Mai 2019">
+    <meta property="go:site_name" content="Game Jam Carcassonne" />
+    <meta property="go:locale" content="fr_FR " />
+    <meta property="go:type" content="website" />
+    <meta property="go:title" content="RDV à la Game Jam de Carcassonne" />
+    <meta property="go:description" content="Rejoignez la Game Jame et venez participer en Mai 2019 " />
+    <meta property="go:url" content="https://game-jam-carcassonne.fr" />
+    <meta property="go:image" content="https://game-jam-carcassonne.fr/img/logo.png" />
+    <!--<meta property="fb:admins" content="466663333334444" />-->
+    <meta name="twitter:card" value="summary" />
+    <meta name="twitter:url" value="https://game-jam-carcassonne.fr" />
+    <meta name="twitter:title" value="RDV à la Game Jam de Carcassonne" />
+    <meta name="twitter:description" value="Rejoignez la Game Jame et venez participer en Mai 2019 " />
+    <meta name="twitter:site" value="@OrizonEvent" />
+    <meta name="twitter:creator" value="@OrizonEvent" />
+    <meta name="twitter:image" value="https://game-jam-carcassonne.fr/img/logo.png" />
+
+
     <link href='https://fonts.googleapis.com/css?family=Lobster|Open+Sans:400,400italic,300italic,300|Raleway:300,400,600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -21,8 +38,10 @@
     <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
     <script src="https://www.google.com/recaptcha/api.js?render=6LeeBJoUAAAAANzJ3EdPxe1WFp_8ZPX_S0MJqo6Q"></script>
     <script>
-        grecaptcha.ready(function () {
-            grecaptcha.execute('6LeeBJoUAAAAANzJ3EdPxe1WFp_8ZPX_S0MJqo6Q', { action: 'contact' }).then(function (token) {
+        grecaptcha.ready(function() {
+            grecaptcha.execute('6LeeBJoUAAAAANzJ3EdPxe1WFp_8ZPX_S0MJqo6Q', {
+                action: 'contact'
+            }).then(function(token) {
                 var recaptchaResponse = document.getElementById('recaptchaResponse');
                 recaptchaResponse.value = token;
             });
@@ -46,9 +65,9 @@
         <div class="container wow fadeInUp delay-03s">
             <div class="row">
                 <div class="col-md-12 logo text-center">
-                  <h1>Formez votre équipe et créez un Serious Game</h1>
-                  <img src="img/logo.png" alt="logo">
-                  <h1>Venez participer et découvrir le développement d'un Jeu Vidéo !</h1>
+                    <h1>Formez votre équipe et créez un Serious Game</h1>
+                    <img src="img/logo.png" alt="logo">
+                    <h1>Venez participer et découvrir le développement d'un Jeu Vidéo !</h1>
                 </div>
 
                 <?php
@@ -66,17 +85,17 @@
             </div>
         </div>
         <?php
-            include 'inc/moreinfos.php';
-         ?>
+        include 'inc/moreinfos.php';
+        ?>
         <?php
-            include 'inc/whoweare.php';
-         ?>
+        include 'inc/whoweare.php';
+        ?>
         <?php
         include 'inc/contactForm.php';
         ?>
-         <?php
-            include 'inc/map.php';
-         ?>
+        <?php
+        include 'inc/map.php';
+        ?>
     </div>
     <?php
     include 'inc/footer.php';
@@ -96,4 +115,4 @@
 
 </body>
 
-</html>
+</html> 

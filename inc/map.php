@@ -3,7 +3,7 @@
         <div class="col about-title">
             <h2>Rejoignez l'évènement</h2>
             <hr />
-            <div class="center">
+            <div class="center" id="mapContainer">
                 <div id="mapid"></div>
             </div>
         </div>
