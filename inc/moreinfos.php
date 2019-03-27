@@ -6,40 +6,118 @@
                     <i class="fa fa-gamepad"></i>
                 </div>
                 <h3 class="abt-hd">Les équipes</h3>
-                <p>Les équipes sont composées de 4 participants.
+                <p>
                     <ul class="styleOn">
                         <li>
-                            L’Objectif : créer un jeu vidéo respectant le thème choisis en 48h.
+                            4 participants par équipe
                         </li>
                         <li>
-                            Ils devront faire preuve de créativité et d'ingéniosité pour se démarquer des autres équipes.
+                            Un Objectif : créer un jeu vidéo respectant le thème choisi en 48h.
                         </li>
                         <li>
-                            Deux rendez-vous important devant jury et public pour présenter son projet puis le résultat final (voir le planning de la game-jam).
+                            Faire preuve de créativité et d'ingéniosité pour se démarquer des autres équipes.
+                        </li>
+                        <li>
+                            Deux rendez-vous importants: jury et public puis le jury final.
+                        </li>
+                        <li>
+                            Des lots à gagner pour les finalistes.
                         </li>
                     </ul>
-                </p>
+                </p><br><br>
+                <div>
+                    <a href="#" class="contact-phone">Comment s'inscire ? <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+                </div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-04s text-center">
                 <div class="img">
                     <i class="fa fa-users"></i>
                 </div>
                 <h3 class="abt-hd">Le Public</h3>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores</p>
+                <p>
+                    <ul class="styleOn">
+                        <li>
+                            Stands de découverte du numérique
+                        </li>
+                        <li>
+                            Stands de formations
+                        </li>
+                        <li>
+                            Animations ludiques et stands de jeux
+                        </li>
+                        <li>
+                            Restauration possible
+                        </li>
+                        <li>
+                            Une découverte ouvert à toutes et tous
+                        </li>
+                        <li>
+                            Possibilité d'intégrer une équipe ou un jury, sans pré-requis techniques
+                        </li>
+                    </ul>
+                </p><br><br>
+                <div>
+                    <a href="#" class="contact-phone">Participer ! <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+                </div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-06s text-center">
                 <div class="img">
                     <i class="fa fa-cogs"></i>
                 </div>
                 <h3 class="abt-hd">Le Principe</h3>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores</p>
+                <p>
+                    <ul class="styleOn">
+                        <li>
+                            48h pour créer un jeu
+                        </li>
+                        <li>
+                            Moteur de jeu: Godot Engine
+                        </li>
+                        <li>
+                            Une découverte ouvert à toutes et tous, sans pré-requis
+                        </li>
+                        <li>
+                            48h d'immersion dans le monde du développement
+                        </li>
+                        <li>
+                            La phase de conception mélange néophytes et développeurs
+                        </li>
+                        <li>
+                            Mélange et diversité des compétences
+                        </li>
+                        <li>
+                            Convivialité
+                        </li>
+                    </ul>
+                </p>
+                <br><br>
+                <div>
+                    <a href="#" class="contact-phone">Programme <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+                </div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-08s text-center">
                 <div class="img">
                     <i class="fa fa-leaf"></i>
                 </div>
-                <h3 class="abt-hd">L'environnement</h3>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores</p>
+                <h3 class="abt-hd">Le thème</h3>
+                <p>
+                    <ul class="styleOn">
+                        <li>
+                            Serious Game : Activité dont l’intention est de sensibiliser,
+                            voir former à divers sujets sous forme de jeux (jeux de société,
+                            jeux de rôle et jeux vidéo).
+                        </li>
+                        <li>
+                            Créer un Jeu vidéo sur un thème d’actualité (environnement, sécurité, écologie...).
+                        </li>
+                        <li>
+                            Le thème utilisé pour cet évènement sera annoncé aux équipes le Samedi à 10h !
+                        </li>
+                        <li>
+                            Le numérique au service des humains
+                        </li>
+                    </ul>
+                </p>
             </div>
         </div>
     </div>

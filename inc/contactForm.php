@@ -8,7 +8,7 @@
                     <p>Contactez nous en utilisant le formulaire ci-contre
                         <br>ou en téléphonant directement </p>
                     <div id="phone-btn">
-                        <a href="tel:+33632096792" class="contact-phone">Appeler</a>
+                        <a href="tel:+33632096792" class="contact-phone">Appeler</a><br><br><br>
                     </div>
                 </div>
             </div>

@@ -359,11 +359,21 @@ h2.subs-title  {
 }
 
 #mapid{
-	height: 300px;
+	height: 350px;
 }
 
 .styleOn{
 	list-style: inherit; 
+	line-height: 20px;
+}
+.styleOn li{
+	margin-top:5px;
+}
+.styleOn a{
+	color:rgb(224, 224, 224);
+}
+.styleOn a:hover{
+	color:#fff;
 }
 
 
