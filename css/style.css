@@ -92,12 +92,12 @@ h1
 	padding: 10px;
 	min-height: 75px;
 	background-color: #63D160; /*effet LCD*/
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d5e5b9+0,abbd73+100 */
-background: #d5e5b9; /* Old browsers */
-background: -moz-linear-gradient(-45deg, #d5e5b9 0%, #abbd73 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg, #d5e5b9 0%,#abbd73 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg, #d5e5b9 0%,#abbd73 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5e5b9', endColorstr='#abbd73',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d5e5b9+0,abbd73+100 */
+  background: #d5e5b9; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #d5e5b9 0%, #abbd73 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #d5e5b9 0%,#abbd73 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #d5e5b9 0%,#abbd73 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5e5b9', endColorstr='#abbd73',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	border: 6px  inset #DDD;
 	border-radius: 5px;
 	font-size: 60px;
@@ -363,7 +363,7 @@ h2.subs-title  {
 }
 
 .styleOn{
-	list-style: inherit; 
+	list-style: inherit;
 	line-height: 20px;
 }
 .styleOn li{
@@ -380,6 +380,28 @@ h2.subs-title  {
 /**********************************
 Media Queries
 ***********************************/
+@media (min-width: 901px) and (max-width: 1201px) {
+  h1{
+   font-size: 28px;
+   padding-bottom: 5px;
+  }
+   h2{
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+
+  #countdown {
+  	color: #111;
+  	margin:  70px 0px 69px;
+  	padding: 10px;
+  	min-height: 45px;
+  	border: 6px  inset #DDD;
+  	border-radius: 5px;
+  	font-size: 40px;
+  	box-shadow: 2px 2px 8px;
+  }
+
+}
 @media (min-width: 501px) and (max-width: 901px) {
 	.contact-title{
 		padding: 15px;
@@ -398,6 +420,25 @@ Media Queries
 	body{
 		overflow-x:hidden;
 	}
+  h1{
+   font-size: 24px;
+   padding-bottom: 5px;
+  }
+   h2{
+  	font-size: 18px;
+  	padding-bottom: 5px;
+  }
+  #countdown {
+  	color: #111;
+  	margin:  45px 10% ;
+  	padding: 10px;
+  	min-height: 0px;
+  	border: 6px  inset #DDD;
+  	border-radius: 3px;
+  	font-size: 41px;
+  	box-shadow: 2px 2px 6px;
+  }
+
 }
 @media (min-width: 20px) and (max-width: 500px) {
 	.contact-title{
@@ -414,4 +455,22 @@ Media Queries
 		width: 80%;
 		margin: 0 auto;
 	}
+  h1{
+   font-size: 20px;
+   padding-bottom: 2px;
+  }
+   h2{
+    font-size: 18px;
+    padding-bottom: 2px;
+  }
+  #countdown {
+    color: #111;
+    margin:  45px 70px ;
+    padding: 10px;
+    min-height: 0px;
+    border: 6px  inset #DDD;
+    border-radius: 3px;
+    font-size: 2em;
+    box-shadow: 2px 2px 6px;
+  }
 }
