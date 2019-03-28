@@ -93,6 +93,9 @@
         include 'inc/moreinfos.php';
         ?>
         <?php
+        include 'inc/glossaire.php';
+        ?>
+        <?php
         include 'inc/whoweare.php';
         ?>
         <?php

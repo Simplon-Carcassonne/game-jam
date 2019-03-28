@@ -3,6 +3,7 @@
   <a href="#top"><i class="fas fa-arrow-up"></i></a>
   <!-- <li> <a href="#counter">countdown</a></li> -->
   <a href="#moreInfos"><i class="fas fa-info-circle"></i></a>
+  <a href="#glossaire"><i class="fas fa-info-circle"></i></a>
   <a href="#whoWeAre"><i class="fas fa-question-circle"></i></a>
   <a href="#contact-info"><i class="fas fa-address-card"></i></a>
   <!-- <li> <a href="#socialmedia"> socialmedia</a></li> -->

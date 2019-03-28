@@ -1,4 +1,4 @@
-<section class="">
+<section class="section-padding">
     <div class="container">
         <div class="row">
           <hr id="moreInfos">
