@@ -1,6 +1,7 @@
 <section  class="section-padding">
     <div class="container">
         <div class="row">
+          <hr  id="whoWeAre">
             <div class="col-md-12 col-sm-12 text-center">
                 <div class="about-title">
                     <h2>Qui sommes nous ?</h2>
@@ -19,7 +20,7 @@
         </div>
     </div>
 </section>
-<section  class="section-padding">
+<section  class="section-padding" >
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 text-center">

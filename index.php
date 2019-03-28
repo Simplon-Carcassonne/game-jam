@@ -25,6 +25,7 @@
 
 
     <link href='https://fonts.googleapis.com/css?family=Lobster|Open+Sans:400,400italic,300italic,300|Raleway:300,400,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
@@ -56,12 +57,15 @@
 </head>
 
 <body>
+  <?php
+    include 'inc/navIndex.php';
+  ?>
     <?php
     if (isset($_POST['name'])) {
       include 'inc/manageForm.php';
     }
     ?>
-    <div class="content">
+    <div class="content" id="top">
         <div class="container wow fadeInUp delay-03s">
             <div class="row">
                 <div class="col-md-12 logo text-center">
@@ -69,9 +73,10 @@
                     <img src="img/logo.png" alt="logo">
                     <h1>Venez participer et découvrir le développement d'un Jeu Vidéo !</h1>
                 </div>
+                <hr id="counter">
 
                 <?php
-                include 'inc/countdown.php';
+              include 'inc/countdown.php';
                 ?>
 
                 <!-- <h2 class="subs-title text-center">inscrivez-vous et votre équipe !</h2>
@@ -92,6 +97,9 @@
         ?>
         <?php
         include 'inc/contactForm.php';
+        ?>
+        <?php
+      //  include 'inc/socialmedia.php';
         ?>
         <?php
         include 'inc/map.php';
@@ -115,4 +123,4 @@
 
 </body>
 
-</html> 
+</html>

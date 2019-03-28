@@ -1,6 +1,6 @@
 
-
     <div class="row justify-content-center align-items-center flex-nowrap">
+
       <div class=" col-sm-2 col-md-3">
 
       </div>

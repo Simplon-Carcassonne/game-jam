@@ -1,6 +1,7 @@
 <section class="">
     <div class="container">
         <div class="row">
+          <hr id="moreInfos">
             <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-02s text-center">
                 <div class="img">
                     <i class="fa fa-gamepad"></i>
@@ -121,4 +122,4 @@
             </div>
         </div>
     </div>
-</section> 
+</section>

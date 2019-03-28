@@ -1,6 +1,7 @@
-<div id="contact-info">
+<div>
     <div class="container">
         <div class="row">
+          <hr  id="contact-info">
             <div class="col-md-6">
                 <div class="contact-title justify">
                     <h2>Intéressés par l'évènement ?
