@@ -78,7 +78,6 @@ h1
 }
 .navbar a{
   opacity: 1;
-  padding-left: 10px;
 }
 .navbar i{
   font-size: 2em;
@@ -481,18 +480,20 @@ Media Queries
   .navbar{
     display:flex;
     flex-direction: row;
+    justify-content: space-between;
     z-index: 1001;
     text-align: center;
     padding: 5px;
     margin: 1px;
     font-weight: bolder;
-    background-color: black;
+    background-color: #000000aa;
     border: 1px solid cyan;
     position: sticky;
     top: 0;
-
-
+    font-size: 1em;
+    opacity: 1;
   }
+
 	.contact-title{
 		padding: 15px;
 	}
