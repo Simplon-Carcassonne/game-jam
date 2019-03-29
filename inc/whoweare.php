@@ -5,7 +5,7 @@
             <div class="col-md-12 col-sm-12 text-center">
                 <div class="about-title">
                     <h2>Qui sommes nous ?</h2>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium <br>voluptatum deleniti atque corrupti quos dolores e</p>
+                    <p>Nous des passionnés venant d'environnement différent réuni au tour du même <br>amour pour le Jeu Vidéo</p>
                 </div>
             </div>
         </div>

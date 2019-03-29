@@ -4,6 +4,8 @@
       <h2>infos pratiques</h2>
       <hr id="whereEat">
       <div class="center" >
+        <p>Nous invitons à réserver à l'avance votre hôtle, Carcassonne en période estivale reçois bon nombre de touristes, vous trouverez une liste non exhaustive d'hôtels, snack & commerces utiles</p>
+
         <h3>Hôtels</h3>
 
         <ul>
@@ -39,13 +41,19 @@
         <li> <p>Boulangerie des Halles, 61 Rue Aimé Ramond, 11000 Carcassonne - 04 68 25 06 17</p> </li>
         </ul>
 
+        <h3>Divers</h3>
         <h4>Supermarché</h4>
         <ul>
         <li> <p>Carrefour Market, 17 Place Carnot, 11000 Carcassonne</p> </li>
         <li> <p>Monoprix, 17 Rue Georges Clemenceau, 11000 Carcassonne</p> </li>
         </ul>
 
-        <h3>Parking</h3>
+        <h4>pharmacie</h4>
+        <ul>
+          <li> <p>Pharmacie Moutou : 14 Rue Chartrand, 11000 Carcassonne - 04 68 25 06 87</p> </li>
+          <li> <p>Pharmacie Huc : 26 Rue de Verdun, 11000 Carcassonne - 04 68 25 04 51</p> </li>
+        </ul>
+
 
       </div>
     </div>
