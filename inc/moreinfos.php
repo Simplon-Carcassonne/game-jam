@@ -28,7 +28,7 @@
         </ul>
         <br><br>
         <div>
-          <a href="#" class="contact-phone">Comment s'inscire ? <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+          <a href="https://forms.gle/r6mHEWp5WLdotAzYA" target="_blank" class="contact-phone">Comment s'inscire ? <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
         </div>
       </div>
       <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-04s text-center justify-content-center">
@@ -58,7 +58,7 @@
         </ul>
         <br><br>
         <div>
-          <a href="#" class="contact-phone">Participer ! <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+          <a href="https://forms.gle/o4sCGzWdcAnG6DMf8" target="_blank" class="contact-phone">Participer ! <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
         </div>
       </div>
       <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-06s text-center">
@@ -91,7 +91,7 @@
         </ul>
         <br><br>
         <div>
-          <a href="#" class="contact-phone">Programme <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+          <a href="./pdf/GameJam-Carcassonne.pdf" target="_blank" class="contact-phone">Programme <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
         </div>
       </div>
       <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-08s text-center">
