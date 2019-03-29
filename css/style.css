@@ -412,6 +412,89 @@ h2.subs-title  {
   position: sticky;
 
 }
+.center{
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ .infoModal{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.infoModal ul{
+ padding: 0;
+}
+#hotelModal{
+  display: none;
+  background-color: #000000CC;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: fixed;
+  margin-left: 10%;
+  margin-right: 10%;
+  top: 78px;
+  z-index: 1003;
+  padding: 20px;
+  display: none;
+  text-align: center;
+  border-radius: 10px 0 10px 0;
+    box-shadow: 0 0 4px cyan;
+
+}
+#restoModal{
+  display: none;
+  background-color: #000000CC;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: fixed;
+  margin-left: 10%;
+  margin-right: 10%;
+  top: 78px;
+  z-index: 1003;
+  padding: 20px;
+  display: none;
+  text-align: center;
+  border-radius: 10px 0 10px 0;
+    box-shadow: 0 0 4px cyan;
+
+}
+#diversModal{
+  display: none;
+  background-color: #000000CC;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: fixed;
+  margin-left: 10%;
+  margin-right: 10%;
+  top: 78px;
+  z-index: 1003;
+  padding: 20px;
+  display: none;
+  text-align: center;
+  border-radius: 10px 0 10px 0;
+    box-shadow: 0 0 4px cyan;
+
+}
+.about-title button{
+  background-color: black;
+  color: yellow;
+  border-style: none;
+  box-shadow: 0 0 4px cyan;
+  margin: 5px;
+  font-weight: bolder;
+  width: 175px
+}
 
 
 /**********************************
@@ -552,5 +635,9 @@ Media Queries
     border-radius: 3px;
     font-size: 1.8em;
     box-shadow: 2px 2px 6px;
+  }
+  .center{
+    padding-left: 0px;
+
   }
 }
