@@ -14,16 +14,20 @@ html {
 }
 body {
 	line-height: 1.2;
-	height: 100%;
-	background-color: #000  no-repeat center top;
-	background-size: cover;
-	font-family: 'Open Sans', sans-serif;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,40b1e5+50,0a0e0a+50,0a0809+100 */
-	background: #000000; /* Old browsers */
-	background: -moz-linear-gradient(-45deg, #000000 0%, #40b1e5 50%, #0a0e0a 50%, #0a0809 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(-45deg, #000000 0%,#40b1e5 50%,#0a0e0a 50%,#0a0809 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(135deg, #000000 0%,#40b1e5 50%,#0a0e0a 50%,#0a0809 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0a0809',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background-color: black;
+
+
+}
+.gradient{
+
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  background: black; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #000000 0%, #40b1e5 50%, #0a0e0a 50%, #0a0809 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #000000 0%,#40b1e5 50%,#0a0e0a 50%,#0a0809 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #000000 0%,#40b1e5 50%,#0a0e0a 50%,#0a0809 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0a0809',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
 
 }
 ol, ul {

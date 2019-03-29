@@ -57,7 +57,9 @@
   ======================================================= -->
 </head>
 
-<body>
+<body class="gradient">
+  <div class="gradient">
+
   <?php
     include 'inc/navIndex.php';
   ?>
@@ -121,6 +123,7 @@
     <script src="js/ourJSEffects.js"></script>
 
 
+  </div>
 </body>
 
 </html>
