@@ -15,16 +15,17 @@
     <meta property="go:url" content="https://game-jam-carcassonne.fr" />
     <meta property="go:image" content="https://game-jam-carcassonne.fr/img/logo.png" />
     <!--<meta property="fb:admins" content="466663333334444" />-->
-    <meta name="twitter:card" value="summary" />
-    <meta name="twitter:url" value="https://game-jam-carcassonne.fr" />
-    <meta name="twitter:title" value="RDV à la Game Jam de Carcassonne" />
-    <meta name="twitter:description" value="Rejoignez la Game Jame et venez participer en Mai 2019 " />
-    <meta name="twitter:site" value="@OrizonEvent" />
-    <meta name="twitter:creator" value="@OrizonEvent" />
-    <meta name="twitter:image" value="https://game-jam-carcassonne.fr/img/logo.png" />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://game-jam-carcassonne.fr" />
+    <meta name="twitter:title" content="RDV à la Game Jam de Carcassonne" />
+    <meta name="twitter:description" content="Rejoignez la Game Jame et venez participer en Mai 2019 " />
+    <meta name="twitter:site" content="@OrizonEvent" />
+    <meta name="twitter:creator" content="@OrizonEvent" />
+    <meta name="twitter:image" content="https://game-jam-carcassonne.fr/img/logo.png" />
 
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 
-    <link href='https://fonts.googleapis.com/css?family=Lobster|Open+Sans:400,400italic,300italic,300|Raleway:300,400,600' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
