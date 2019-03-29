@@ -74,7 +74,7 @@
                     <img src="img/logo.png" alt="logo">
                     <h1>Venez participer et découvrir le développement d'un Jeu Vidéo !</h1>
                 </div>
-                <hr id="counter">
+
 
                 <?php
               include 'inc/countdown.php';
@@ -107,6 +107,9 @@
         ?>
         <?php
         include 'inc/map.php';
+        ?>
+        <?php
+        include 'inc/whereEatSleep.php';
         ?>
     </div>
     <?php

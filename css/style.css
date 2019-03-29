@@ -9,11 +9,13 @@ Author URL: https://bootstrapmade.com
  font-family: 'digital-7';
  src: url(../fonts/digital-7.ttf);
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
 	line-height: 1.2;
 	height: 100%;
-	background: #000  no-repeat center top;
+	background-color: #000  no-repeat center top;
 	background-size: cover;
 	font-family: 'Open Sans', sans-serif;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,40b1e5+50,0a0e0a+50,0a0809+100 */

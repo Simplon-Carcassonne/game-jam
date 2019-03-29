@@ -7,7 +7,6 @@
           <i class="fa fa-gamepad"></i>
         </div>
         <h3 class="abt-hd">Les équipes</h3>
-
         <ul class="styleOn">
           <li>
             4 participants par équipe
@@ -30,11 +29,11 @@
           <a href="#" class="contact-phone">Comment s'inscire ? <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
         </div>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-04s text-center">
+      <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-04s text-center justify-content-center">
         <div class="img">
           <i class="fa fa-users"></i>
         </div>
-        <h3 class="abt-hd">Le Public</h3>    
+        <h3 class="abt-hd">Le Public</h3>
         <ul class="styleOn">
           <li>
             Stands de découverte du numérique
@@ -55,7 +54,7 @@
             Possibilité d'intégrer une équipe ou un jury, sans pré-requis techniques
           </li>
         </ul>
-
+        <br><br>
         <div>
           <a href="#" class="contact-phone">Participer ! <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
         </div>
@@ -88,6 +87,7 @@
             Convivialité
           </li>
         </ul>
+        <br><br>
         <div>
           <a href="#" class="contact-phone">Programme <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
         </div>
