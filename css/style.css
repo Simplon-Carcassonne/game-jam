@@ -210,16 +210,6 @@ h1
 	display: block;
 	padding: 65px 0 0 0;
 }
-/* .contact-title h2
-{
-	font-size: 1.2em;
-	font-weight: 600;
-	color: #fff;
-	text-align: right;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	padding: 15px 0px 30px;
-} */
 .contact-title p {
 	text-align: right;
 	margin-top: -5px;
@@ -428,6 +418,11 @@ h2.subs-title  {
 Media Queries
 ***********************************/
 @media (min-width: 901px) and (max-width: 1201px) {
+  .logo img
+  {
+  	width: 64%;
+
+  }
   h1{
    font-size: 28px;
    padding-bottom: 5px;
@@ -450,6 +445,18 @@ Media Queries
 
 }
 @media (min-width: 501px) and (max-width: 901px) {
+
+  .logo img
+  {
+  	width: 67%;
+
+  }
+
+  .us img{
+  	height: 100px;
+    max-width: 220px;
+  	margin: 10px 0;
+  }
 	.contact-title{
 		padding: 15px;
 	}
@@ -488,6 +495,16 @@ Media Queries
 
 }
 @media (min-width: 20px) and (max-width: 500px) {
+  .logo img
+  {
+  	width: 85%;
+
+  }
+  .us img{
+    height: 100px;
+    max-width: 220px;
+    margin: 10px 0;
+  }
   .navbar{
     display:flex;
     flex-direction: row;

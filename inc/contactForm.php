@@ -24,7 +24,7 @@
                         echo '<div id="sendmessage">'.$success.'</div>';
                     }
                     ?>
-                    <form action="#contact-info" method="post" role="form" class="contactForm">
+                    <form action="#contact-info" method="post" class="contactForm">
                         <div class="form-group">
                             <input type="text" value="<?php  if(isset($_POST['name'])) echo $_POST['name'];  ?>" name="name" class="form-control" id="name" placeholder="Votre Nom" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                             <div class="validation"></div>

@@ -80,14 +80,6 @@
               include 'inc/countdown.php';
                 ?>
 
-                <!-- <h2 class="subs-title text-center">inscrivez-vous et votre équipe !</h2>
-          <div class="subcription-info text-center">
-          <form class="subscribe_form" action="#" method="post">
-          <input required="" value="" placeholder="email..." class="email" id="email" name="email" type="email">
-          <input class="subscribe" name="email" value="Envoyer" type="submit">
-        </form>
-        <p class="sub-p">We Promise to never span you.</p>
-      </div> -->
             </div>
         </div>
         <?php
