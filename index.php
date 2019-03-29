@@ -58,7 +58,7 @@
 </head>
 
 <body class="gradient">
-  <div class="gradient">
+  <div class="gradient " id="top">
 
   <?php
     include 'inc/navIndex.php';
@@ -68,7 +68,7 @@
       include 'inc/manageForm.php';
     }
     ?>
-    <div class="content" id="top">
+    <div >
         <div class="container wow fadeInUp delay-03s">
             <div class="row">
                 <div class="col-md-12 logo text-center">

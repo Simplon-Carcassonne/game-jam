@@ -19,7 +19,7 @@ body {
 
 }
 .gradient{
-
+  color: white;
   background-size: cover;
   font-family: 'Open Sans', sans-serif;
   background: black; /* Old browsers */
@@ -97,7 +97,6 @@ h1
 .content
 {
 	margin-top: 50px;
-	color: #fff;
 }
 .logo img
 {
