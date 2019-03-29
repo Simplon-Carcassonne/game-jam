@@ -9,6 +9,7 @@
       <div class="col-lg-12  infoModal">
         <button id="hotelBtn" type="button" name="button"> Hôtels</button>
         <div class="" id="hotelModal">
+          <h4>Hôtels</h4>
           <ul>
             <li> <p> <a href="https://www.hifrance.org/auberge-de-jeunesse/carcassonne.html" target="_blank">Auberge de Jeunesse</a> , 8 Rue Raymond Roger Trencavel, 11000 Carcassonne - 04 68 25 23 16</p> </li>
             <li> <p> <a href="http://hotel-carcassonne-11.com" target="_blank"> Hotel Central</a> , 27 Boulevard Jean Jaurès, 11000 Carcassonne - 04 68 25 03 84</p> </li>
