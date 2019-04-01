@@ -35,7 +35,7 @@
     <div class="row">
       <div class="col-md-12 col-sm-12 text-center">
         <div class="us tooltip__inner">
-          <a href="http://www.carcassonne.org/"  data-toggle="tooltip" title="Mairie de Carcassonne !"  target="_blank"><img src="img/logoCarca.png" alt="mairie Carcassonne"></a>
+          <a href="http://www.carcassonne.org/"  data-toggle="tooltip" title="Mairie de Carcassonne !"  target="_blank"><img src="img/LOGOPARTENAIRECARCASSONNE.jpg" alt="mairie Carcassonne"></a>
           <a href="https://simplon.co"  data-toggle="tooltip" title="Simplon entreprise de formation dans le numérique" target="_blank"><img src="img/SimplonLogo.svg" alt="simplon"></a>
           <a href="https://godotengine.org/" data-toggle="tooltip" title="GODOT Engine, moteur libre et OpenSource !" target="_blank"> <img src="img/Godot.jpg" alt="Gobot engine"></a>
         </div>

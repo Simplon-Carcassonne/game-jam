@@ -172,9 +172,12 @@ h1
   color: yellow;
 }
 .us img{
-	height: 100px;
+	max-height: 100px;
+  width: auto;
 	margin: 10px;
+  max-width: 300px;
 }
+
 .img
 {
 	margin-top: 30px;
@@ -535,9 +538,10 @@ Media Queries
   }
 
   .us img{
-  	height: 100px;
+  	max-height: 100px;
+    width: auto;
+  	margin: 10px;
     max-width: 220px;
-  	margin: 10px 0;
   }
 	.contact-title{
 		padding: 15px;
@@ -592,8 +596,8 @@ Media Queries
 
   }
   .us img{
-    height: 100px;
-    max-width: 220px;
+    max-height: 100px;
+    max-width: 180px;
     margin: 10px 0;
   }
   .navbar{
