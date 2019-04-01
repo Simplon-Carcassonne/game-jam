@@ -175,7 +175,7 @@ h1
 	max-height: 100px;
   width: auto;
 	margin: 10px;
-  max-width: 300px;
+  max-width: 350px;
 }
 
 .img
@@ -541,7 +541,7 @@ Media Queries
   	max-height: 100px;
     width: auto;
   	margin: 10px;
-    max-width: 220px;
+    max-width: 300px;
   }
 	.contact-title{
 		padding: 15px;
@@ -597,7 +597,7 @@ Media Queries
   }
   .us img{
     max-height: 100px;
-    max-width: 180px;
+    max-width: 220px;
     margin: 10px 0;
   }
   .navbar{
