@@ -75,6 +75,7 @@
                     <h1>Formez votre équipe et créez un Serious Game</h1>
                     <img src="img/logo.png" alt="logo">
                     <h1>Ville de Carcassonne</h1>
+                    <h2>2 jours pour créer un jeu vidéo</h2>
                     <h2>Venez participer et découvrir le développement d'un Jeu Vidéo !</h2>
                 </div>
 
