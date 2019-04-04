@@ -61,6 +61,13 @@ h1
   color: yellow;
 }
 
+.equalHeightDesc{
+	height: 250px;
+}
+.equalHeightButton{
+	height: 50px;
+}
+
 /**********************************
 ***********************************/
 /**********************************
@@ -162,8 +169,8 @@ h1
 }
 /* .section-padding
 {
-	padding: 20px ; */
-}
+	padding: 20px ; 
+}*/
 .about-title h2
 {
 	font-size: 24px;
@@ -526,7 +533,14 @@ Media Queries
   	border-radius: 5px;
   	font-size: 40px;
   	box-shadow: 2px 2px 8px;
-  }
+	}
+	
+.equalHeightDesc{
+	height: 300px;
+}
+.equalHeightButton{
+	height: 50px;
+}
 
 }
 @media (min-width: 501px) and (max-width: 901px) {
@@ -586,7 +600,13 @@ Media Queries
     padding: 20px;
     font-size: 1em;
 
-  }
+	}
+	.equalHeightDesc{
+		height: 200px;
+	}
+	.equalHeightButton{
+		height: 50px;
+	}
 
 }
 @media (min-width: 20px) and (max-width: 500px) {
@@ -659,5 +679,21 @@ Media Queries
     z-index: 1003;
     padding: 20px;
     font-size: 0.8em;
-  }
+	}
+	.equalHeightDesc{
+		height: 150px;
+	}
+	.equalHeightButton{
+		height: 50px;
+	}
+}
+
+@media (min-width: 20px) and (max-width: 490px) {
+	.equalHeightDesc{
+		height: 200px;
+	}
+	.equalHeightButton{
+		height: 50px;
+	}
+
 }

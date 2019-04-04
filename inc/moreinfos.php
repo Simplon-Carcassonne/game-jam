@@ -9,7 +9,7 @@
           <i class="fa fa-gamepad"></i>
         </div>
         <h3 class="abt-hd">Les équipes</h3>
-        <ul class="styleOn">
+        <ul class="styleOn equalHeightDesc">
           <li>
             4 participants par équipe
           </li>
@@ -23,11 +23,11 @@
             Deux rendez-vous importants: jury et public puis le jury final.
           </li>
           <li>
-            Des lots à gagner pour les finalistes.
+            Des <strong>lots à gagner</strong> pour les finalistes.
           </li>
         </ul>
         <br><br>
-        <div>
+        <div class="equalHeightButton">
           <a href="https://forms.gle/r6mHEWp5WLdotAzYA" target="_blank" class="contact-phone">Comment s'inscire ? <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
         </div>
       </div>
@@ -36,7 +36,7 @@
           <i class="fa fa-users"></i>
         </div>
         <h3 class="abt-hd">Le Public</h3>
-        <ul class="styleOn">
+        <ul class="styleOn equalHeightDesc">
           <li>
             Stands de découverte du numérique
           </li>
@@ -50,14 +50,14 @@
             Restauration possible
           </li>
           <li>
-            Une découverte ouvert à toutes et tous
+            Une découverte ouverte à toutes et tous
           </li>
           <li>
-            Possibilité d'intégrer une équipe ou un jury, sans pré-requis techniques
+            Possibilité d'intégrer une équipe ou un jury, sans pré-requis technique
           </li>
         </ul>
         <br><br>
-        <div>
+        <div class="equalHeightButton">
           <a href="https://forms.gle/o4sCGzWdcAnG6DMf8" target="_blank" class="contact-phone">Participer ! <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
         </div>
       </div>
@@ -66,15 +66,12 @@
           <i class="fa fa-cogs"></i>
         </div>
         <h3 class="abt-hd">Le Principe</h3>
-        <ul class="styleOn">
+        <ul class="styleOn equalHeightDesc">
           <li>
-            48h pour créer un jeu
+            Tous les Moteurs de jeu sont acceptés (Connaissez-vous <a href="#glossaire">Godot ?</a>)
           </li>
           <li>
-            Moteur de jeu: Godot Engine
-          </li>
-          <li>
-            Une découverte ouvert à toutes et tous, sans pré-requis
+            Une découverte ouverte à toutes et tous, sans pré-requis
           </li>
           <li>
             48h d'immersion dans le monde du développement
@@ -90,7 +87,7 @@
           </li>
         </ul>
         <br><br>
-        <div>
+        <div class="equalHeightButton">
           <a href="./pdf/GameJam-Carcassonne.pdf" target="_blank" class="contact-phone">Programme <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
         </div>
       </div>
@@ -99,7 +96,7 @@
           <i class="fa fa-leaf"></i>
         </div>
         <h3 class="abt-hd">Le thème</h3>
-        <ul class="styleOn">
+        <ul class="styleOn equalHeightDesc">
           <li>
             Créer un Jeu vidéo sur un thème d’actualité (environnement, sécurité, écologie...).
           </li>

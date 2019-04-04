@@ -7,7 +7,7 @@
       <div class="col-md-12 col-sm-12 text-center">
         <div class="about-title">
           <h2>Qui sommes nous ?</h2>
-          <p>Nous sommes des passionnés venant de tous les horizons, réuni autour du même <br>amour pour le Jeu Vidéo</p>
+          <p>Nous sommes des passionnés venant de tous les horizons, réunis autour du même <br>amour pour le Jeu Vidéo</p>
         </div>
       </div>
     </div>
