@@ -5,7 +5,7 @@
       <hr>
       <div class="center">
         <p>Nous invitons à réserver à l'avance votre hôtel,
-          Carcassonne en période estivale reçoit bon nombre de touristes,
+          Carcassonne reçoit bon nombre de touristes,
           vous trouverez une liste non exhaustive d'hôtels, snacks & commerces utiles<br><br>
 
           -- Facilités pour les équipes --<br>

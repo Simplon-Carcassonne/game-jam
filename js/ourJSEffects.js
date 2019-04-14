@@ -1,4 +1,4 @@
 
-const map = new LeafletMap(43.21231926254244, 2.351224422454834,14);
+const map = new LeafletMap(43.211899, 2.352558,14);  //43.211899, 2.352558
 const buttonManager = new PhoneButton();
 

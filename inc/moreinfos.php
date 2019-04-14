@@ -11,7 +11,7 @@
         <h3 class="abt-hd">Les équipes</h3>
         <ul class="styleOn equalHeightDesc">
           <li>
-            4 participants par équipe
+            4 à 5 participants par équipe
           </li>
           <li>
             Un Objectif : créer un jeu vidéo respectant le thème choisi en 48h.

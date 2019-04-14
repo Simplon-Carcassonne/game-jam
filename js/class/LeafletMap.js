@@ -63,7 +63,7 @@ class LeafletMap {
 
         var popup = L.popup()
             .setLatLng([43.21231926254244, 2.351224422454834])
-            .setContent("Halles, Rue Chartran, 11000 Carcassonne <br> Cliquez pour ouvrir l'application de guidage")
+            .setContent("Salle Joe Bousquet, 39 rue aimé ramond, 11000 Carcassonne <br> Cliquez pour ouvrir l'application de guidage")
             .openOn(this.mymap);
 
         $(window).on('orientationchange pageshow resize',  () => {
