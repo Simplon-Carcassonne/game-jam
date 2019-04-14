@@ -1,8 +1,8 @@
-<section  class="section-padding">
+<section class="section-padding">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <hr  id="whoWeAre">
+        <hr id="whoWeAre">
       </div>
       <div class="col-md-12 col-sm-12 text-center">
         <div class="about-title">
@@ -14,15 +14,15 @@
     <div class="row">
       <div class="col-md-12 col-sm-12 text-center">
         <div class="us">
-          <a href="https://simplon.co/occitanie/"  data-toggle="tooltip" title="Formation numériques financées en Occitanie" target="_blank"><img src="img/simplon.png" alt=""></a>
-          <a href="https://eventorizon.studio/"  data-toggle="tooltip" title="Studio de développement Audois"  target="_blank"> <img src="img/event_orizon.png" alt=""></a>
-          <a href="http://gamersthrone.online.fr/?fbclid=IwAR2TNk3w3xfjHp636rFFANgHjdNmSenYZCDt6HFE57tgGJ8O73j16NnQPyM"  data-toggle="tooltip" title="Association Gamers'Throne"  target="_blank"><img src="img/gnt.png" alt=""></a>
+          <a href="https://simplon.co/occitanie/" data-toggle="tooltip" title="Formation numériques financées en Occitanie" target="_blank"><img src="img/simplon.png" alt=""></a>
+          <a href="https://eventorizon.studio/" data-toggle="tooltip" title="Studio de développement Audois" target="_blank"> <img src="img/event_orizon.png" alt=""></a>
+          <a href="http://gamersthrone.online.fr/?fbclid=IwAR2TNk3w3xfjHp636rFFANgHjdNmSenYZCDt6HFE57tgGJ8O73j16NnQPyM" data-toggle="tooltip" title="Association Gamers'Throne" target="_blank"><img src="img/gnt.png" alt=""></a>
         </div>
       </div>
     </div>
   </div>
 </section>
-<section  class="section-padding" >
+<section class="section-padding">
   <div class="container">
     <div class="row">
       <div class="col-md-12 col-sm-12 text-center">
@@ -35,18 +35,37 @@
     <div class="row">
       <div class="col-md-12 col-sm-12 text-center">
         <div class="us tooltip__inner">
-          <a href="http://www.carcassonne.org/"  data-toggle="tooltip" title="Mairie de Carcassonne !"  target="_blank"><img src="img/LOGOPARTENAIRECARCASSONNE.jpg" alt="mairie Carcassonne"></a>
-          <a href="https://simplon.co"  data-toggle="tooltip" title="Simplon entreprise de formation dans le numérique" target="_blank"><img src="img/SimplonLogo.svg" alt="simplon"></a>
+          <a href="http://www.carcassonne.org/" data-toggle="tooltip" title="Mairie de Carcassonne !" target="_blank"><img src="img/LOGOPARTENAIRECARCASSONNE.jpg" alt="mairie Carcassonne"></a>
+          <a href="https://simplon.co" data-toggle="tooltip" title="Simplon entreprise de formation dans le numérique" target="_blank"><img src="img/SimplonLogo.svg" alt="simplon"></a>
           <a href="https://godotengine.org/" data-toggle="tooltip" title="GODOT Engine, moteur libre et OpenSource !" target="_blank"> <img src="img/Godot.jpg" alt="Gobot engine"></a>
         </div>
       </div>
     </div>
   </div>
 </section>
+<section class="section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 text-center">
+        <div class="about-title">
+          <h2>Soutenez l'évènement</h2>
+          <p>Cet évènement est la première game Jam dans l'Aude, sur Carcassonne.<br/><br/>
+
+            Grâce à votre don, nous pourrons, avec vous, réaliser et atteindre tous les objectifs,<br/>
+            afin de faire de cet évènement un instant unique et convivial !<br/><br/>
+            Par avance merci !!<br/>
+          </p><br/><br/>
+          <div class="equalHeightButton">
+          <a href="https://www.donnerenligne.fr/gamer-s-throne/faire-un-don" target="_blank" class="contact-phone">Soutenir <i class="fa fa-external-link" aria-hidden="true"></i></a>
+        </div>
+        </div>
+      </div>
+    </div>
+</section>
 
 
 <script>
-$(document).ready(function(){
-  $('[data-toggle="tooltip"]').tooltip();
-});
+  $(document).ready(function() {
+    $('[data-toggle="tooltip"]').tooltip();
+  });
 </script>
