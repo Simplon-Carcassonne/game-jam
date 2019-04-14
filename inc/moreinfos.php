@@ -38,10 +38,10 @@
         <h3 class="abt-hd">Le Public</h3>
         <ul class="styleOn equalHeightDesc">
           <li>
-            Stands de découverte du numérique
+            Stands de découverte du numérique et de formation
           </li>
           <li>
-            Stands de formations
+            Tombola
           </li>
           <li>
             Animations ludiques et stands de jeux
