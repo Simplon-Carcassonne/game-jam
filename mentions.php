@@ -31,7 +31,7 @@
             <div class="row">
                 <div class="col-md-12 logo text-center">
                   <h2>Formez votre équipe et créez un Serious Game</h2>
-                    <a href="index.php"><img src="img/logo.png" alt="logo"></a>
+                    <a href="index.php"><img src="img/logo-game-jam-carcassonne-aude.png" alt="logo"></a>
                     <p>2 jours pour développer, 2 jours pour créer, 2 jours pour s'entraider et 2 jours pour votre avenir !</p>
                     <h2>Venez participer et découvrir le développement d'un Jeu Vidéo !</h2>
                 </div>

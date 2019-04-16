@@ -40,6 +40,7 @@
                       <option value="team" <?php  if(isset($_POST['subject']) && $_POST['subject'] == 'team') echo 'selected="selected"';  ?>>Inscrire son équipe</option>
                       <option value="team-join" <?php  if(isset($_POST['subject']) && $_POST['subject'] == 'team-join') echo 'selected="selected"';  ?>>Rejoindre une équipe</option>
                       <option value="stand" <?php  if(isset($_POST['subject']) && $_POST['subject'] == 'stand') echo 'selected="selected"';  ?>>Réserver un stand</option>
+                        <option value="stand" <?php  if(isset($_POST['subject']) && $_POST['subject'] == 'stand') echo 'selected="selected"';  ?>>Commander un T-Shirt</option>
                       <option value="infos" <?php  if(isset($_POST['subject']) && $_POST['subject'] == 'infos') echo 'selected="selected"';  ?>>Information</option>
                       <option value="autre" <?php  if(isset($_POST['subject']) && $_POST['subject'] == 'autre') echo 'selected="selected"';  ?>>Autre</option>
                     </select>

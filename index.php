@@ -82,11 +82,11 @@
         <div class="container wow fadeInUp delay-03s">
             <div class="row">
                 <div class="col-md-12 logo text-center">
-                    <h1>Formez votre équipe et créez un Serious Game</h1>
-                    <img src="img/logo.png" alt="logo">
-                    <h1>Ville de Carcassonne (Aude)</h1>
+                    <span id="bigTitle">Formez votre équipe et créez un Serious Game</span>
+                    <img src="img/logo-game-jam-carcassonne-aude.png" alt="logo game jame carcassonne - aude 11">
+                    <h1>Une Game Jam sur Carcassonne - Aude</h1>
                     <h2>2 jours pour créer un jeu vidéo</h2>
-                    <h2>Venez participer et découvrir le développement d'un Jeu Vidéo !</h2>
+                    <h2>Venez participer !! Découvrez le développement d'un Jeu Vidéo !</h2>
                 </div>
 
 

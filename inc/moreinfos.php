@@ -101,15 +101,14 @@
             Créer un Jeu vidéo sur un thème d’actualité (environnement, sécurité, écologie...).
           </li>
           <li>
-            Le thème utilisé pour cet évènement sera annoncé aux équipes le Samedi à 10h !
+            Le thème utilisé pour cet évènement sera annoncé aux équipes et sur les réseaux sociaux le Vendredi dans la soirée !
           </li>
           <li>
             Le numérique au service des humains
           </li>
           <li>
             Serious Game : Activité dont l’intention est de sensibiliser,
-            voir former à divers sujets sous forme de jeux (jeux de société,
-            jeux de rôle et jeux vidéo).
+            voir former à divers sujets sous forme de jeux.
           </li>
         </ul>
       </div>

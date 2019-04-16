@@ -11,6 +11,7 @@
   <a href="#foot"><i class="fas fa-arrow-down"></i></a>
 
   <br>
-  <a href="https://www.facebook.com/Game-Jam-Carcassonne-545868659270573/" target="_blank"><i class="fab fa-facebook"></i></a>
-
+    <a href="https://www.facebook.com/events/652423038535353/" target="_blank"><i class="fab fa-facebook"></i></a>
+  <!--<a href="https://www.facebook.com/Game-Jam-Carcassonne-545868659270573/" target="_blank"><i class="fab fa-facebook"></i></a>
+-->
 </div>
