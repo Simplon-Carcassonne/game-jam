@@ -7,7 +7,7 @@
       <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-06s text-center ">
         <h2>GameJam</h2>
         <p class="abt-hdbis">
-          Une GameJam est un Hackathon dont le thème principale est le jeux. Les participants doivent dans un temps impartie réalisé un jeux vidéo autour d’un thème.
+          Une GameJam est un Hackathon dont le thème principal est le jeu. Les participants doivent dans un temps imparti réaliser un jeu vidéo autour d’un thème.
         </p>
       </div>
       <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-06s text-center">
@@ -19,7 +19,7 @@
       <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-06s text-center">
         <h2>Hackathon</h2>
         <p class="abt-hdbis">
-          désigne un évènement ou un groupe de développeur qui se réunissent pour faire de la programmation collaborative sur plusieurs jours (généralement de 24 à 72h). C’est un processus créatif fréquemment utilisé dans le domaine de l’innovation numérique.
+          Désigne un évènement où un groupe de développeur qui se réunit pour faire de la programmation collaborative sur plusieurs jours (généralement de 24 à 72h). C’est un processus créatif fréquemment utilisé dans le domaine de l’innovation numérique.
         </p>
       </div>
       <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-06s text-center">
