@@ -12,8 +12,8 @@
           Si votre budget est limité, il est possible
           de dormir dans un gymnase, à 10 min à pied de la salle. 
           (prévoir dans ce cas votre matériel de couchage)<br>
-            De plus le staff d'organisation de la Game Jame et <a href="https://sacrefernand.com" target="_blank">Sacré Fernand <i class="fa fa-external-link" aria-hidden="true"></i></a>,
-           vous propose un pack repas pour les 2 jours<br>
+            De plus le staff d'organisation de la Game Jam et <a href="https://sacrefernand.com" target="_blank">Sacré Fernand <i class="fa fa-external-link" aria-hidden="true"></i></a>,
+           vous proposent un pack repas pour les 2 jours<br>
             Contactez nous pour avoir plus d'infos !
         </p>
 

@@ -21,14 +21,14 @@
   <meta property="go:locale" content="fr_FR " />
   <meta property="go:type" content="website" />
   <meta property="go:title" content="RDV à la Game Jam de Carcassonne - Aude (11)" />
-  <meta property="go:description" content="Rejoignez la Game Jame et venez participer en Mai 2019 " />
+  <meta property="go:description" content="Rejoignez la Game Jam et venez participer en Mai 2019 " />
   <meta property="go:url" content="https://game-jam-carcassonne.fr" />
   <meta property="go:image" content="https://game-jam-carcassonne.fr/img/logo.png" />
   <!--<meta property="fb:admins" content="466663333334444" />-->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:url" content="https://game-jam-carcassonne.fr" />
   <meta name="twitter:title" content="RDV à la Game Jam de Carcassonne - Aude (11)" />
-  <meta name="twitter:description" content="Rejoignez la Game Jame et venez participer en Mai 2019 " />
+  <meta name="twitter:description" content="Rejoignez la Game Jam et venez participer en Mai 2019 " />
   <meta name="twitter:site" content="@OrizonEvent" />
   <meta name="twitter:creator" content="@OrizonEvent" />
   <meta name="twitter:image" content="https://game-jam-carcassonne.fr/img/logo.png" />
