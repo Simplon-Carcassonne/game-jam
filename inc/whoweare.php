@@ -49,15 +49,44 @@
       <div class="col-md-12 col-sm-12 text-center">
         <div class="about-title">
           <h2>Soutenez l'évènement</h2>
-          <p>Cet évènement est la première game Jam dans l'Aude, sur Carcassonne.<br/><br/>
+          <p>Cet évènement est la première game Jam dans l'Aude, sur Carcassonne.<br /><br />
 
-            Grâce à votre don, nous pourrons, avec vous, réaliser et atteindre tous les objectifs,<br/>
-            afin de faire de cet évènement un instant unique et convivial !<br/><br/>
-            Par avance merci !!<br/>
-          </p><br/><br/>
+            Grâce à votre don, nous pourrons, avec vous, réaliser et atteindre tous les objectifs,<br />
+            afin de faire de cet évènement un instant unique et convivial !<br /><br />
+            Par avance merci !!<br />
+          </p><br /><br />
           <div class="equalHeightButton">
-          <a href="https://www.donnerenligne.fr/gamer-s-throne/faire-un-don" target="_blank" class="contact-phone">Soutenir <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            <a href="https://www.donnerenligne.fr/gamer-s-throne/faire-un-don" target="_blank" class="contact-phone">Soutenir <i class="fa fa-external-link" aria-hidden="true"></i></a>
+          </div>
         </div>
+      </div>
+    </div>
+</section>
+<section class="section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 text-center">
+        <div class="about-title">
+          <h2>Offrez vous le T-shirt spécial Game Jam !!</h2>
+          <p>Le T-shirt de l'évènement, disponible en blanc uniquement pour le public.<br /><br />
+
+            Si vous êtes en équipe vous pouvez réservez un T-shirt noir,<br />
+             avec le nom de votre équipe en place et lieu du mot "STAFF"<br />
+          </p><br /><br />
+          <div class="equalHeightButton">
+            <a href="https://www.helloasso.com/associations/gamer-s-throne/paiements/t-shirt-public-blanc-game-jam-carcassonne-2019" target="_blank" class="contact-phone">Réserver un T-shirt blanc <i class="fa fa-external-link" aria-hidden="true"></i></a>
+          </div>
+          <div class="equalHeightButton">
+            <a href="https://www.helloasso.com/associations/gamer-s-throne/paiements/t-shirt-team-noir-game-jam-carcassonne-2019" target="_blank" class="contact-phone">Réserver un T-shirt d'équipe <i class="fa fa-external-link" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 col-sm-12 text-center">
+        <div class="us2 tooltip__inner">
+          <a href="https://www.helloasso.com/associations/gamer-s-throne/paiements/t-shirt-public-blanc-game-jam-carcassonne-2019" data-toggle="tooltip" title="T-shirt public - GameJam Carcassonne" target="_blank"><img src="img/GameJam2019_Tshirt_public.png" alt="T-shirt public GameJam Carcassonne"></a>
+          <br /><br /><a href="https://www.helloasso.com/associations/gamer-s-throne/paiements/t-shirt-team-noir-game-jam-carcassonne-2019" data-toggle="tooltip" title="T-shirt pour le staff et les équipes-  GameJam Carcassonne" target="_blank"><img src="img/GameJam2019_Tshirt_staff.png" alt="T-shirt staff GameJam Carcassonne"></a>
         </div>
       </div>
     </div>
