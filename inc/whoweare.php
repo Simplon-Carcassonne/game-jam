@@ -28,7 +28,7 @@
       <div class="col-md-12 col-sm-12 text-center">
         <div class="about-title">
           <h2>Nos Partenaires</h2>
-          <p>Sans leur soutien...Merci encore !!<br>Suivez les liens et découvrez nos partenaires</p>
+          <p>Sans leur soutien, rien n'aurait été possible. Merci encore !<br>Suivez les liens et découvrez nos partenaires</p>
         </div>
       </div>
     </div>

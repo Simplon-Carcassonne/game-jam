@@ -108,7 +108,7 @@
           </li>
           <li>
             Serious Game : Activité dont l’intention est de sensibiliser,
-            voir former à divers sujets sous forme de jeux.
+            voire former à divers sujets sous forme de jeux.
           </li>
         </ul>
       </div>
