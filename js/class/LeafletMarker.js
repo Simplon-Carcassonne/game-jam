@@ -23,7 +23,7 @@ class LeafletMarker {
             iconSize:     [38, 38], // size of the icon
             shadowSize:   [38, 38], // size of the shadow
             //iconAnchor:   [7, 7], // point of the icon which will correspond to marker's location
-            iconAnchor:   [19, 5],
+            iconAnchor:   [500, 5],    //19
             shadowAnchor: [4, 62],  // the same for the shadow
             popupAnchor:  [13, -10]//[-3, -76] // point from which the popup should open relative to the iconAnchor
         });

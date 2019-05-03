@@ -54,17 +54,21 @@ class LeafletMap {
             iconSize: [38, 38], // size of the icon
             shadowSize: [38, 38], // size of the shadow
             //iconAnchor:   [7, 7], // point of the icon which will correspond to marker's location
-            iconAnchor: [19, 5],
-            shadowAnchor: [4, 62],  // the same for the shadow
-            popupAnchor: [13, -10]//[-3, -76] // point from which the popup should open relative to the iconAnchor
+            iconAnchor: [10, 20],
+            shadowAnchor: [100, -200],  // the same for the shadow
+            popupAnchor: [0, -0]//[-3, -76] // point from which the popup should open relative to the iconAnchor
         });
-        this.marker = L.marker([43.21231926254244, 2.351224422454834], { icon: simplonIcon }).addTo(this.mymap);
+        this.marker = L.marker([this.latitude, this.longitude], { icon: simplonIcon }).addTo(this.mymap);
         //this.mymap.on('click', this.onMapClick.bind(this));
 
+        //adjust for pop up Latitude: 43.211772 | Longitude: 2.35254
         var popup = L.popup()
-            .setLatLng([43.21231926254244, 2.351224422454834])
+            .setLatLng([43.211772 ,2.35254])
             .setContent("Salle Joe Bousquet, 39 rue aimé ramond, 11000 Carcassonne <br> Cliquez pour ouvrir l'application de guidage")
             .openOn(this.mymap);
+
+        //this.marker.bindPopup(popup, { offset: L.Point(0, 0) }).addTo(this.mymap);
+        //popup.openOn(this.mymap);
 
         $(window).on('orientationchange pageshow resize',  () => {
             $(ID).height($(window).height());
